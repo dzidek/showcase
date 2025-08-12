@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<!--
+##############> flashback.agency <##############
+    ______           __    __               __  
+   / __/ /___ ______/ /_  / /_  ____ ______/ /__
+  / /_/ / __ `/ ___/ __ \/ __ \/ __ `/ ___/ //_/
+ / __/ / /_/ (__  ) / / / /_/ / /_/ / /__/ ,<   
+/_/ /_/\__,_/____/_/ /_/_.___/\__,_/\___/_/|_|  
+                                                
+#########> jakub.idzikowski@gmail.com <#########
+-->
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <title>600x400_green</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="ad.size" content="width=600,height=400" />
+    <meta name="author" content="flashback.agency - jakub.idzikowski@gmail.com" />
+
+    <!-- libs -->
+    <script src="https://s0.2mdn.net/ads/studio/cached_libs/gsap_3.11.5_min.js"></script>
+
+    <!-- styles -->
+    <style data-styles>
+      /* styles */
+      *,*:before,*:after{box-sizing:border-box}*{margin:0}html,body{overflow:hidden;height:100%}body{position:relative;margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}img,picture,video,canvas,svg{display:block;max-width:100%;image-rendering:webkit-optimize-contrast}img{max-width:none}input,button,textarea,select{font:inherit}p,h1,h2,h3,h4,h5,h6{overflow-wrap:break-word}.static{position:static}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.w-full{width:100%}.h-full{height:100%}.size-full{width:100%;height:100%}.top-0{top:0}.bottom-0{bottom:0}.left-0{left:0}.right-0{right:0}.inset-0{inset:0}.cursor-auto{cursor:auto}.cursor-pointer{cursor:pointer}.pointer-events-auto{pointer-events:auto}.pointer-events-none{pointer-events:none}.overflow-auto{overflow:auto}.overflow-hidden{overflow:hidden}.overflow-clip{overflow:clip}.overflow-visible{overflow:visible}.overflow-scroll{overflow:scroll}:root{--mby-color-blue: 0 0 255;--mby-color-green: 0 255 0;--mby-color-pink: 255 14 178;--color-black: 0 0 0;--color-white: 255 255 255;--grad-color-1b: rgba(var(--color-black) / 1);--grad-color-2b: rgba(var(--color-black) / 1);--grad-color-3b: rgba(var(--color-black) / 0);--grad-color-1w: rgba(var(--color-white) / 1);--grad-color-2w: rgba(var(--color-white) / 1);--grad-color-3w: rgba(var(--color-white) / 0);--grad-color-1blue: rgba(var(--mby-color-blue) / 1);--grad-color-2blue: rgba(var(--mby-color-blue) / 1);--grad-color-3blue: rgba(var(--mby-color-blue) / 0);--border: 1px solid rgb(0 0 0 / .1);--background: white}.debug{outline:1px dashed #1e2189}body{display:flex;justify-content:center;align-items:center}#banner{flex-shrink:0;background:var(--background)}#wrapper{perspective:500px}#border{z-index:30;border:var(--border)}#cover{position:absolute;left:0;top:0;width:100%;height:200%;pointer-events:none;background:linear-gradient(to bottom,var(--grad-color-1w) 0%,var(--grad-color-2w) 50%,var(--grad-color-3w) 100%)}#nota{font-family:Montserrat,Arial,Helvetica,"sans-serif";position:relative;width:100%;height:100%;color:#000;pointer-events:none}#nota-button{position:absolute;color:#000;left:0;bottom:0;padding:3px;pointer-events:all;cursor:pointer;text-transform:uppercase;font-size:8px;font-weight:600;background-color:#ffffffbf;backdrop-filter:blur(8px)}#nota-content{position:absolute;padding:8px;font-size:10px;font-weight:400;top:100%;width:100%;background-color:#fffffff2;backdrop-filter:blur(8px)}ol,ul{padding-left:1.5em}a{text-decoration:underline;color:inherit}
+      </style>
+  </head>
+
+  <body
+    data-size="600x400"
+    data-line="green"
+    onload="banner.init();"
+  >
+
+    <script>
+      var clickTag = "https://www.google.com/";
+    </script>
+
+    <div id="banner" class="relative overflow-hidden cursor-pointer" style="width: 600px; height: 400px;" title="DisplayAd">
+      <div id="wrapper" class="absolute size-full">
+
+        
+        
+        <div>
+        <!-- id: kviz -->
+        <img
+          id="kviz"
+          src="images/kviz.jpg"
+          alt="kviz"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 0px;
+            top: 0px;
+            width: 600px;
+            height: 400px;"
+        />
+        
+        <!-- id: logo_young -->
+        <img
+          id="logo_young"
+          src="images/logo_young.svg"
+          alt="logo_young"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 29px;
+            top: 15px;
+            width: 107.9px;
+            height: 41px;"
+        />
+        <div id="oferta_box">
+        
+        <!-- id: cta -->
+        <div
+          id="cta"
+          style="position: absolute;
+            transform: rotate(0deg);
+            transform-origin: top left;
+            left: 21px;
+            top: 246px;
+            width: 158px;
+            height: 40px;"
+          >
+          <!-- embed: cta -->
+          <svg viewBox="0 0 158 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="158" height="40" rx="20" fill="#00ff00"/>
+          <path d="M39.4409 27.16C37.6209 27.16 35.7809 26.66 34.7809 26L35.8209 23.76C36.7809 24.38 38.2409 24.8 39.5609 24.8C41.0009 24.8 41.5409 24.42 41.5409 23.82C41.5409 22.06 35.0409 23.86 35.0409 19.56C35.0409 17.52 36.8809 16.08 40.0209 16.08C41.5009 16.08 43.1409 16.42 44.1609 17.02L43.1209 19.24C42.0609 18.64 41.0009 18.44 40.0209 18.44C38.6209 18.44 38.0209 18.88 38.0209 19.44C38.0209 21.28 44.5209 19.5 44.5209 23.74C44.5209 25.74 42.6609 27.16 39.4409 27.16ZM53.0659 16.08C56.0859 16.08 58.4259 18.24 58.4259 21.62C58.4259 25 56.0859 27.16 53.0659 27.16C51.7259 27.16 50.6259 26.74 49.8259 25.86V30.88H46.7059V18.64H45.5059V16.24H49.2059L49.4059 17.86C50.1859 16.66 51.4459 16.08 53.0659 16.08ZM52.5259 24.6C54.0859 24.6 55.2659 23.48 55.2659 21.62C55.2659 19.76 54.0859 18.64 52.5259 18.64C50.9659 18.64 49.7859 19.76 49.7859 21.62C49.7859 23.48 50.9659 24.6 52.5259 24.6ZM63.4284 18.06C64.1484 16.76 65.5884 16.08 67.4484 16.08V19.1C67.1884 19.08 66.9884 19.06 66.7684 19.06C65.0284 19.06 63.8884 19.94 63.8884 21.92V27H60.7684V18.64H59.5684V16.24H63.2684L63.4284 18.06ZM76.7849 16.24H79.9049V27H76.9249V25.76C76.1449 26.7 75.0049 27.16 73.5649 27.16C70.5249 27.16 68.1849 25 68.1849 21.62C68.1849 18.24 70.5249 16.08 73.5649 16.08C74.8849 16.08 76.0049 16.5 76.7849 17.38V16.24ZM74.1049 24.6C75.6449 24.6 76.8449 23.48 76.8449 21.62C76.8449 19.76 75.6449 18.64 74.1049 18.64C72.5449 18.64 71.3449 19.76 71.3449 21.62C71.3449 23.48 72.5449 24.6 74.1049 24.6ZM97.2354 16.24H99.9954L96.0954 27H93.0954L90.6754 20.32L88.1754 27H85.1754L81.2954 16.24H84.2354L86.7754 23.52L89.4154 16.24H92.0554L94.6154 23.52L97.2354 16.24ZM108.192 12.16H111.312V27H108.332V25.76C107.552 26.7 106.412 27.16 104.972 27.16C101.932 27.16 99.5921 25 99.5921 21.62C99.5921 18.24 101.932 16.08 104.972 16.08C106.292 16.08 107.412 16.5 108.192 17.38V12.16ZM105.512 24.6C107.052 24.6 108.252 23.48 108.252 21.62C108.252 19.76 107.052 18.64 105.512 18.64C103.952 18.64 102.752 19.76 102.752 21.62C102.752 23.48 103.952 24.6 105.512 24.6ZM122.5 11.98L118.88 14.86H116.44L119.14 11.98H122.5ZM117.4 24.6H123.06V27H113.46V25.12L118.94 18.64H113.6V16.24H122.88V18.12L117.4 24.6Z" fill="#0000FF"/>
+          </svg>
+          
+        </div>
+        
+        <!-- id: oferta_txt -->
+        <div
+          id="oferta_txt"
+          style="position: absolute;
+            transform: rotate(0deg);
+            transform-origin: top left;
+            left: 21px;
+            top: 62px;
+            width: 231px;
+            height: 74px;"
+          >
+          <!-- embed: oferta_txt -->
+          <svg width="230" height="68" viewBox="0 0 230 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6.08991 20.3328H14.7384V24H0.0695981V21.1274L8.44302 11.2259H0.283518V7.55875H14.4633V10.4314L6.08991 20.3328ZM29.5029 7.55875H34.2702V24H29.7168V22.1053C28.525 23.5416 26.7831 24.2445 24.5827 24.2445C19.9376 24.2445 16.3621 20.944 16.3621 15.7794C16.3621 10.6147 19.9376 7.31427 24.5827 7.31427C26.5997 7.31427 28.311 7.95603 29.5029 9.30066V7.55875ZM25.4079 20.3328C27.761 20.3328 29.5946 18.6214 29.5946 15.7794C29.5946 12.9373 27.761 11.2259 25.4079 11.2259C23.0242 11.2259 21.1906 12.9373 21.1906 15.7794C21.1906 18.6214 23.0242 20.3328 25.4079 20.3328ZM47.152 10.4008L43.7293 12.9679V24H38.9619V16.5434L37.2811 17.7963L35.5086 15.4127L38.9619 12.8151V1.32452H43.7293V9.20899L45.4101 7.95603L47.152 10.4008ZM53.5435 5.45011L57.6691 1.04948H62.8032L57.2718 5.45011H53.5435ZM56.3856 24.2445C51.1599 24.2445 47.3399 20.7301 47.3399 15.7794C47.3399 10.8287 51.1599 7.31427 56.3856 7.31427C61.6114 7.31427 65.4008 10.8287 65.4008 15.7794C65.4008 20.7301 61.6114 24.2445 56.3856 24.2445ZM56.3856 20.3328C58.7693 20.3328 60.5723 18.6214 60.5723 15.7794C60.5723 12.9373 58.7693 11.2259 56.3856 11.2259C54.0019 11.2259 52.1683 12.9373 52.1683 15.7794C52.1683 18.6214 54.0019 20.3328 56.3856 20.3328ZM74.5821 5.29731C73.0847 5.29731 72.0151 4.19715 72.0151 2.69972C72.0151 1.23284 73.0847 0.132682 74.5821 0.132682C76.0796 0.132682 77.1492 1.23284 77.1492 2.69972C77.1492 4.19715 76.0796 5.29731 74.5821 5.29731ZM73.2681 20.3328H81.9165V24H67.2478V21.1274L75.6212 11.2259H67.4617V7.55875H81.6415V10.4314L73.2681 20.3328ZM104.72 14.7709L110.648 24H105.239L100.594 16.8795H98.3936V24H93.6263V1.32452H98.3936V13.2429H100.594L104.995 7.55875H110.312L104.72 14.7709ZM119.774 24.2445C114.548 24.2445 110.728 20.7301 110.728 15.7794C110.728 10.8287 114.548 7.31427 119.774 7.31427C124.999 7.31427 128.789 10.8287 128.789 15.7794C128.789 20.7301 124.999 24.2445 119.774 24.2445ZM119.774 20.3328C122.157 20.3328 123.96 18.6214 123.96 15.7794C123.96 12.9373 122.157 11.2259 119.774 11.2259C117.39 11.2259 115.556 12.9373 115.556 15.7794C115.556 18.6214 117.39 20.3328 119.774 20.3328ZM142.366 7.31427C146.247 7.31427 149.181 9.5757 149.181 14.5875V24H144.413V15.321C144.413 12.6623 143.191 11.4399 141.082 11.4399C138.79 11.4399 137.14 12.8456 137.14 15.8711V24H132.373V11.2259H130.539V7.55875H136.193L136.437 10.1258C137.69 8.29219 139.829 7.31427 142.366 7.31427ZM162.141 19.8438L163.394 23.2054C162.416 23.9083 160.98 24.2445 159.544 24.2445C155.632 24.2445 153.401 22.2581 153.401 18.3464V3.92212H158.168V7.55875H162.233V11.1954H158.168V18.2853C158.168 19.691 158.902 20.455 160.185 20.455C160.888 20.455 161.591 20.2411 162.141 19.8438ZM173.403 24.2445C168.177 24.2445 164.357 20.7301 164.357 15.7794C164.357 10.8287 168.177 7.31427 173.403 7.31427C178.629 7.31427 182.418 10.8287 182.418 15.7794C182.418 20.7301 178.629 24.2445 173.403 24.2445ZM173.403 20.3328C175.786 20.3328 177.589 18.6214 177.589 15.7794C177.589 12.9373 175.786 11.2259 173.403 11.2259C171.019 11.2259 169.185 12.9373 169.185 15.7794C169.185 18.6214 171.019 20.3328 173.403 20.3328ZM3.58399 42.2668C1.81152 42.2668 0.619677 41.1055 0.619677 39.608C0.619677 38.1106 1.81152 36.9493 3.58399 36.9493C5.35647 36.9493 6.54831 38.0495 6.54831 39.5164C6.54831 41.1055 5.35647 42.2668 3.58399 42.2668ZM1.20032 61V44.5587H5.96767V61H1.20032ZM23.9364 57.3328H32.5849V61H17.9161V58.1274L26.2896 48.2259H18.13V44.5587H32.3099V47.4314L23.9364 57.3328ZM47.5583 44.5587H52.3257V58.2496C52.3257 64.3616 49.1169 67.1731 43.3716 67.1731C40.3462 67.1731 37.4124 66.4091 35.5483 64.9117L37.443 61.489C38.7876 62.6197 40.9268 63.3226 43.0049 63.3226C46.1831 63.3226 47.5583 61.8251 47.5583 58.8608V58.3107C46.3054 59.5637 44.594 60.2054 42.6993 60.2054C38.5737 60.2054 35.6705 57.9134 35.6705 52.8099V44.5587H40.4379V52.1071C40.4379 54.888 41.6603 56.1104 43.7689 56.1104C45.9692 56.1104 47.5583 54.7047 47.5583 51.6792V44.5587ZM62.3006 61.2445C59.5197 61.2445 56.7082 60.4805 55.1802 59.472L56.7693 56.0493C58.2362 56.9966 60.467 57.6384 62.484 57.6384C64.6843 57.6384 65.5094 57.0578 65.5094 56.141C65.5094 53.4517 55.5774 56.2021 55.5774 49.6317C55.5774 46.5146 58.389 44.3143 63.1869 44.3143C65.4483 44.3143 67.9542 44.8338 69.5128 45.7506L67.9237 49.1427C66.304 48.2259 64.6843 47.9203 63.1869 47.9203C61.0477 47.9203 60.1309 48.5927 60.1309 49.4483C60.1309 52.2599 70.0629 49.54 70.0629 56.0187C70.0629 59.0747 67.2208 61.2445 62.3006 61.2445ZM84.0975 51.7709L90.0261 61H84.617L79.9719 53.8795H77.7716V61H73.0043V38.3245H77.7716V50.2429H79.9719L84.3726 44.5587H89.69L84.0975 51.7709ZM103.247 44.5587H108.014V61H103.461V59.1053C102.269 60.5416 100.527 61.2445 98.3265 61.2445C93.6814 61.2445 90.1059 57.944 90.1059 52.7794C90.1059 47.6147 93.6814 44.3143 98.3265 44.3143C100.343 44.3143 102.055 44.956 103.247 46.3007V44.5587ZM99.1516 57.3328C101.505 57.3328 103.338 55.6214 103.338 52.7794C103.338 49.9373 101.505 48.2259 99.1516 48.2259C96.768 48.2259 94.9344 49.9373 94.9344 52.7794C94.9344 55.6214 96.768 57.3328 99.1516 57.3328ZM114.998 42.2668C113.225 42.2668 112.033 41.1055 112.033 39.608C112.033 38.1106 113.225 36.9493 114.998 36.9493C116.77 36.9493 117.962 38.0495 117.962 39.5164C117.962 41.1055 116.77 42.2668 114.998 42.2668ZM111.728 67.1731C110.414 67.1731 109.252 66.8981 108.305 66.2563L109.589 62.803C110.078 63.1698 110.566 63.3837 111.208 63.3837C112.033 63.3837 112.614 62.803 112.614 61.6112V44.5587H117.381V61.3362C117.381 64.9422 115.334 67.1731 111.728 67.1731ZM140.724 44.3143C144.605 44.3143 147.539 46.5757 147.539 51.5875V61H142.772V52.321C142.772 49.6623 141.549 48.4399 139.441 48.4399C137.149 48.4399 135.499 49.8456 135.499 52.8711V61H130.731V48.2259H128.898V44.5587H134.551L134.796 47.1258C136.049 45.2922 138.188 44.3143 140.724 44.3143ZM163.889 44.5587H168.656V61H164.103V59.1053C162.911 60.5416 161.169 61.2445 158.969 61.2445C154.324 61.2445 150.748 57.944 150.748 52.7794C150.748 47.6147 154.324 44.3143 158.969 44.3143C160.986 44.3143 162.697 44.956 163.889 46.3007V44.5587ZM159.794 57.3328C162.147 57.3328 163.981 55.6214 163.981 52.7794C163.981 49.9373 162.147 48.2259 159.794 48.2259C157.41 48.2259 155.577 49.9373 155.577 52.7794C155.577 55.6214 157.41 57.3328 159.794 57.3328ZM195.137 44.5587H199.355L193.395 61H188.811L185.114 50.793L181.294 61H176.71L170.781 44.5587H175.273L179.154 55.6826L183.188 44.5587H187.222L191.134 55.6826L195.137 44.5587ZM216.005 52.8405C216.005 53.2072 215.944 53.7267 215.913 54.124H203.475C203.934 56.1715 205.675 57.4245 208.181 57.4245C209.923 57.4245 211.176 56.905 212.307 55.8354L214.843 58.5858C213.315 60.3277 211.023 61.2445 208.059 61.2445C202.375 61.2445 198.677 57.669 198.677 52.7794C198.677 47.8592 202.436 44.3143 207.448 44.3143C212.276 44.3143 216.005 47.5536 216.005 52.8405ZM207.479 47.9203C205.309 47.9203 203.75 49.2344 203.414 51.3431H211.512C211.176 49.265 209.618 47.9203 207.479 47.9203ZM227.827 56.8438L229.08 60.2054C228.102 60.9083 226.666 61.2445 225.23 61.2445C221.318 61.2445 219.087 59.2581 219.087 55.3464V40.9221H223.854V44.5587H227.919V48.1954H223.854V55.2853C223.854 56.691 224.588 57.455 225.871 57.455C226.574 57.455 227.277 57.2411 227.827 56.8438Z" fill="black"/>
+          </svg>
+          
+        </div>
+        
+        <!-- id: price -->
+        <div
+          id="price"
+          style="position: absolute;
+            transform: rotate(0deg);
+            transform-origin: top left;
+            left: 0px;
+            top: 121.8px;
+            width: 260px;
+            height: 120px;"
+          >
+          <!-- embed: price -->
+          <svg viewBox="0 0 134 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M124.533 37.8598L122.108 39.678V47.4923H118.732V42.2106L117.541 43.0981L116.286 41.4097L118.732 39.5698V31.4308H122.108V37.0156L123.299 36.1281L124.533 37.8598Z" fill="black"/>
+          <path d="M110.16 44.8948H116.286V47.4923H105.896V45.4576L111.827 38.4442H106.048V35.8467H116.091V37.8814L110.16 44.8948Z" fill="black"/>
+          <path d="M78.274 48.0366C70.4732 48.0366 64.6679 42.0952 64.6679 31.6185C64.6679 21.1417 70.4732 15.2004 78.274 15.2004C86.1203 15.2004 91.8802 21.1417 91.8802 31.6185C91.8802 42.0952 86.1203 48.0366 78.274 48.0366ZM78.274 41.8231C81.9477 41.8231 84.4875 38.8297 84.4875 31.6185C84.4875 24.4072 81.9477 21.4139 78.274 21.4139C74.6457 21.4139 72.1059 24.4072 72.1059 31.6185C72.1059 38.8297 74.6457 41.8231 78.274 41.8231Z" fill="#0000ff"/>
+          <path d="M47.9848 41.5056H61.6363V47.4923H37.6441V42.7302L49.8896 31.1649C52.7016 28.4891 53.2005 26.8563 53.2005 25.3143C53.2005 22.8198 51.477 21.3685 48.1208 21.3685C45.3996 21.3685 43.0866 22.4116 41.5445 24.5433L36.1928 21.0964C38.6419 17.5134 43.0866 15.2004 48.8011 15.2004C55.8763 15.2004 60.5931 18.8287 60.5931 24.5886C60.5931 27.6727 59.7314 30.4846 55.2867 34.6118L47.9848 41.5056Z" fill="#0000ff"/>
+          <path d="M21.2331 41.5056H34.8846V47.4923H10.8924V42.7302L23.1379 31.1649C25.9499 28.4891 26.4488 26.8563 26.4488 25.3143C26.4488 22.8198 24.7253 21.3685 21.3691 21.3685C18.6479 21.3685 16.3349 22.4116 14.7928 24.5433L9.44109 21.0964C11.8902 17.5134 16.3349 15.2004 22.0495 15.2004C29.1247 15.2004 33.8415 18.8287 33.8415 24.5886C33.8415 27.6727 32.9797 30.4846 28.5351 34.6118L21.2331 41.5056Z" fill="#0000ff"/>
+          </svg>
+          
+        </div>
+        </div>
+        </div>
+        
+        <style>
+        
+        #cta {
+          filter: drop-shadow(0px 10px 8px rgb(0 0 0 / .2));
+        }
+        
+        #oferta_box {
+          perspective: 400px;
+          position: absolute;
+          width: 299px;
+          height: 400px;
+          top: 0px;
+          left: 301px;
+          transform: rotate(0deg);
+          transform-origin: top left;
+        }
+        </style>
+
+      </div>
+
+      <div id="cover" class=""></div>
+
+      <div id="nota">
+        <div id="nota-button">Nota prawna</div>
+        <div id="nota-content">
+          <p>To nie jest oferta. Wyjaśnienia pojęć dotyczących usług reprezentatywnych powiązanych z rachunkiem płatniczym, objętych tym materiałem, znajdziesz na <a href="https://mBank.pl/slowniczek">https://mBank.pl/slowniczek</a></p>
+          <p><strong>Nota prawna - Promocja &quot;Zyskuję więcej z eKontem - II edycja&quot;.</strong></p>
+          <p>Do promocji „Zyskuję więcej z eKontem – II edycja” możesz przystąpić od 03.07.2025 roku do 29.10.2025 r. Promocja obowiązuje od 03.07.2025 r. do 31.01.2026 r. i jest to ostatni dzień, w którym możemy wypłacić Ci premię. Promocja jest skierowana do Nowych Klientów Banku, w wieku od 13 do 17 lat, którzy w okresie, w którym można przystąpić do promocji, spełnią łącznie następujące warunki:</p>
+          <ul>
+          <li>złożą promocyjny wniosek o otwarcie rachunku oszczędnościowo-rozliczeniowego eKonto możliwości (konto promocyjne), wraz z wnioskiem o wydanie debetowej karty płatniczej (karta) </li>
+          <li>zawrą z Bankiem umowę o prowadzenie bankowych rachunków dla osób fizycznych (umowa),</li>
+          <li>ich rodzic/opiekun prawny wyrazi zgodę na złożenie wniosków wskazanych powyżej i zawarcie z bankiem umowy i na uczestnictwo w promocji.</li>
+          </ul>
+          <p>Definicję nowego klienta określa regulamin promocji. W promocji nie mogą wziąć udziału klienci otwierający rachunek wspólny. Uczestnik promocji, który spełni powyższe warunki uczestnictwa, może otrzymać premię w wysokości 220 zł. Warunkiem przyznania premii jest spełnienie warunków: </p>
+          <ul>
+          <li><p>Warunek I za płatność telefonem – min. pięć płatności telefonem.</p>
+          </li>
+          <li><p>Warunek II za przelew na numer telefonu – min. pięć przelewów na numer telefonu.</p>
+          </li>
+          <li><p>Warunek III za wpływ na konto promocyjne – min. 300 zł wpływu na konto promocyjne w ciągu 14 dni od otwarcia konta promocyjnego.</p>
+          </li>
+          <li><p>Warunki (I,II) należy spełnić od dnia otwarcia konta promocyjnego do ostatniego dnia miesiąca następującego po miesiącu otwarcia konta promocyjnego.</p>
+          </li>
+          </ul>
+          <p>Premię wypłacimy Ci na konto promocyjne do końca drugiego miesiąca następującego po miesiącu, w którym otworzyłeś konto promocyjne. Na przykład jeżeli konto promocyjne otworzyłeś w połowie lipca, to czas na spełnienie warunków masz do końca sierpnia. Następnie, premię wypłacimy na Twoje konto promocyjne do końca września. Jeżeli warunki spełniłeś jeszcze w lipcu, to premię wypłacimy Ci również do końca września. Szczegółowe zasady przyznawania i wypłaty premii zostały opisane w regulaminie promocji „Zyskuje więcej z eKontem – II edycja” zamieszczonym na: <a href="http://www.mbank.pl/pdf/promocje/konta/zyskuje-wiecej-z-ekontem-ii-edycja.pdf">http://www.mbank.pl/pdf/promocje/konta/zyskuje-wiecej-z-ekontem-ii-edycja.pdf</a></p>
+          <p><strong>Nota prawna – eKonto możliwości.</strong></p>
+          <p>eKonto możliwości to: 0 zł za otwarcie i prowadzenie konta, 0 zł za kartę, 0 zł za wypłaty kartą na dowolną kwotę ze wszystkich bankomatów w Polsce (dla klientów powyżej 18 lat prowizja za wypłaty poniżej 100 zł wynosi 2,50 zł) i 0 zł za wypłaty kartą na dowolną kwotę za granicą. Szczegółowe informacje dotyczące eKonta możliwości są umieszczone w Regulaminie otwierania i prowadzenia rachunków bankowych dla osób fizycznych w ramach bankowości detalicznej mBanku S.A., dostępnym na <a href="https://mBank.pl/m">https://mBank.pl/m</a> Szczegółowe informacje, w tym warunki naliczania opłat za konta osobiste w mBanku S.A., są określone w Taryfie prowizji i opłat bankowych dla osób fizycznych w ramach bankowości detalicznej mBanku S.A., Tabelach stóp procentowych dla osób fizycznych w ramach bankowości detalicznej mBanku S.A., Regulaminie kart debetowych dla osób fizycznych w ramach bankowości detalicznej mBanku S.A., Regulaminie usług płatniczych dla osób fizycznych w ramach bankowości detalicznej mBanku S.A. oraz Regulaminie otwierania i prowadzenia bankowych rachunków dla osób fizycznych w ramach bankowości detalicznej mBanku S.A., dostępnych na stronie <a href="https://mBank.pl/lp/regulaminy-kont">https://mBank.pl/lp/regulaminy-kont</a>. Szczegółowe informacje, w tym warunki naliczania opłat za kartę debetową, są określone w Taryfie prowizji i opłat bankowych dla osób fizycznych w ramach bankowości detalicznej mBanku S.A., Tabelach stóp procentowych dla osób fizycznych w ramach bankowości detalicznej mBanku S.A. oraz Regulaminie kart debetowych dla osób fizycznych w ramach bankowości detalicznej mBanku S.A., dostępnych na <a href="https://mBank.pl/indywidualny/karty/karty-debetowe/karta-do-ekonta">https://mBank.pl/indywidualny/karty/karty-debetowe/karta-do-ekonta</a></p>
+          <p><strong>Nota prawna – aplikacja mobilna</strong></p>
+          <p>Pamiętaj, że mBank udostępnia swoją aplikację tylko w autoryzowanych sklepach - App Store (iOS - Apple), Google Play (Android), AppGallery dla telefonów Huawei. Pobieraj, instaluj i aktualizuj aplikacją tylko w tych sklepach ponieważ znajdujące się tam aplikacje są cyfrowo podpisane i przechodzą proces weryfikacji, pod kątem ich bezpieczeństwa. Nigdy nie pobieraj aplikacji z innych miejsc niż oficjalne sklepy (np. z linka otrzymanego sms-em czy przez komunikator) – narazisz się na pobranie złośliwej aplikacji, przez którą oszuści mogą wyłudzać Twoje dane, czy przejmować sms-y i wysyłać je bez Twojej zgody. Nową aplikację możesz pobrać jeśli Twoje urządzenie ma system operacyjny w wersji minimum Android 8.0 lub iOS 16.0 (lub nowsze). Zapoznaj się z polityką prywatności aplikacji mobilnych, którą znajdziesz na stronie: <a href="https://www.mbank.pl/o-nas/o-mbanku/polityka-prywatnosci-mobile.html">https://www.mbank.pl/o-nas/o-mbanku/polityka-prywatnosci-mobile.html</a></p>
+          <p><strong>Nota prawna – karta debetowa Visa Me</strong></p>
+          <p>Opłata za kartę debetową Visa Me wydaną do rachunku dla osób od 13 do 24 lat wynosi 0 zł. Dla klientów korzystających z rachunków eKonto możliwości wypłaty z bankomatów w kraju i za granicą w danym miesiącu kalendarzowym są bezpłatne (dla klientów powyżej 18. roku życia prowizja za wypłaty poniżej 100 zł wynosi 2,50 zł). W przypadku transakcji bezgotówkowych i wypłat gotówki za granicą w walucie innej niż waluta, w której jest prowadzony rachunek, kartą debetową Visa Me, mBank pobiera dodatkowo prowizję za przewalutowanie transakcji w wysokości 5,9% od wartości transakcji. Dedykowana grafika jest dostępna dla kart debetowych Visa Me. Zasady umieszczania grafik określa Regulamin kart debetowych dla osób fizycznych w ramach bankowości detalicznej mBanku S.A. Szczegółowe informacje, w tym warunki naliczania opłat za kartę debetową Visa Me, są określone w Taryfie prowizji i opłat bankowych dla osób fizycznych w ramach bankowości detalicznej mBanku S.A., Tabelach stóp procentowych dla osób fizycznych w ramach bankowości detalicznej mBanku S.A. oraz Regulaminie kart debetowych dla osób fizycznych w ramach bankowości detalicznej mBanku S.A. Opłata interchange dla kart debetowych mBanku wynosi 0,2% wartości transakcji.</p>
+          <p><strong>Nota prawna – BLIK</strong></p>
+          <p>Szczegóły dotyczące usług płatniczych i systemu płatności BLIK zawiera Regulamin usług płatniczych dla osób fizycznych w ramach bankowości detalicznej mBanku S.A. dostępny na <a href="https://www.mbank.pl/pomoc/dokumenty/oferta-indywidualna/konta/uslugi-platnicze">https://www.mbank.pl/pomoc/dokumenty/oferta-indywidualna/konta/uslugi-platnicze</a></p>
+          
+        </div>
+      </div>
+
+      <div id="border" class="absolute inset-0 size-full pointer-events-none border"></div>
+    </div>
+
+    <!-- data -->
+    <script data-extra>
+      window.banner = {
+        "width": 600,
+        "height": 400,
+        "data": {
+          "width": 600,
+          "height": 400,
+          "publisher": "gdn",
+          "size": "600x400",
+          "line": "green",
+          "lineData": {
+            "ctaBgColor": "#00ff00",
+            "priceColor": "#0000ff"
+          },
+          "elements": [
+            "kviz",
+            "oferta_box",
+            "cta",
+            "oferta_txt",
+            "price",
+            "logo_young"
+          ],
+          "screenshotsTimings": [
+            1.2,
+            1.94,
+            3.2
+          ]
+        }
+      };
+    </script>
+
+    <!-- animation -->
+    <script data-animation>
+      let banner=window.banner||{};banner.init=function(){const e=document.querySelector("#banner"),o=document.querySelector("#wrapper");function i(){gsap.defaults({ease:"power2.inOut",duration:1,transformOrigin:"center center"}),gsap.config({nullTargetWarn:!1})}function l(){e.addEventListener("click",a=>{window.open(clickTag)})}function c(){const a=()=>{const{clientWidth:t,clientHeight:n}=document.documentElement,{clientWidth:u,clientHeight:r}=e,{width:d,height:p}=o;let s=Math.min(t/u,n/r,1),g=Math.min(t/d,n/p,1);s>.995&&(s=1),e.style.transform="scale("+s+")",o.style.transform="scale("+g+")"};window.addEventListener("resize",a),a()}function f(){let a=document.querySelector("#nota-button"),t=document.querySelector("#nota-content"),n=t.clientHeight-banner.height,u=1.5,r=.3,d=n/100;function p(){n>0?gsap.to(t,{duration:r,y:-e.clientHeight,onComplete:function(){gsap.to(t,{duration:d,delay:u,y:"-="+n,ease:Power0.easeNone})}}):gsap.to(t,{duration:r,yPercent:-100})}function s(){gsap.killTweensOf(t),n>0?gsap.to(t,r,{y:0}):gsap.to(t,r,{yPercent:0})}a.addEventListener("mouseenter",function(){p()}),a.addEventListener("mouseleave",function(){s()})}i(),l(),c(),f(),this.animations.main()},banner.state={debug:!1},banner.utils={toggleDebug:()=>{console.log(banner.data);const e=document.querySelector("#banner"),o=()=>{e.style.overflow="visible"},i=()=>{e.style.overflow="hidden"};banner.state.debug?i():o(),banner.data.elements.forEach(l=>{document.querySelector(`#${l}`).classList.toggle("debug")}),banner.state.debug=!banner.state.debug}},banner.animations={sub:{checkStop:e=>function(){e.totalProgress()>.85&&(gsap.to("#cover",{duration:.1,alpha:0}),e.pause())},showLetters:e=>gsap.timeline().from(e,{duration:1.2,x:"+=100",scale:.2,alpha:0,ease:"expo.out",stagger:{each:.02,ease:"power1.inOut"}},"<"),pulse:e=>gsap.timeline({repeat:5,yoyo:!0}).to(e,{duration:.45,transformOrigin:"center center",scale:.95,ease:"power2.inOut"})},main:function(){const e=()=>{["#label_01a_ol","#label_01b","#label_02","#label_03","#label_04"].forEach(i=>{document.querySelectorAll(`${i} path`).forEach(c=>{c.style.fill=`${banner.data.lineData.copyColor}`})})},o={kv:"50% 65%"};banner.tl=gsap.timeline({id:"flashback",repeat:1,defaults:{ease:"power2.inOut"}}),window.tl=banner.tl,banner.tl.set([],{alpha:0}),banner.tl.to("#cover",{duration:.8,yPercent:"-100",ease:"power2.inOut"},"<").addLabel("f1","<+.4").from("#kviz",{duration:1.8,scale:1.1,rotationX:"-4",ease:"power2.out"},"f1").from("#oferta_box",{duration:1.8,alpha:1,xPercent:100,ease:"power3.inOut"},"<+.2").from("#cta",{duration:1.4,alpha:0,rotationY:90,rotationX:20,scale:2.7,ease:"power3.out"},"<+1.2").add(this.sub.checkStop(banner.tl),">+3").to("#cover",{duration:.8,yPercent:"0",ease:"power2.inOut"},">+.5")}};
+      
+    </script>
+  </body>
+</html>
