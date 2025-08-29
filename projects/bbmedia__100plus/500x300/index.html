@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<!--
+##############> flashback.agency <##############
+    ______           __    __               __  
+   / __/ /___ ______/ /_  / /_  ____ ______/ /__
+  / /_/ / __ `/ ___/ __ \/ __ \/ __ `/ ___/ //_/
+ / __/ / /_/ (__  ) / / / /_/ / /_/ / /__/ ,<   
+/_/ /_/\__,_/____/_/ /_/_.___/\__,_/\___/_/|_|  
+                                                
+#########> jakub.idzikowski@gmail.com <#########
+-->
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <title>500x300_generic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="ad.size" content="width=500,height=300" />
+    <meta name="author" content="flashback.agency - jakub.idzikowski@gmail.com" />
+
+    <!-- libs -->
+    <script src="https://s0.2mdn.net/ads/studio/cached_libs/gsap_3.11.5_min.js"></script>
+
+    <!-- filmweb -->
+    <script src="//ns.sascdn.com/diff/templates/js/banner/sas-clicktag-3.1.js"></script>
+
+    <!-- styles -->
+    <style data-styles>
+      /* styles */
+      *,*:before,*:after{box-sizing:border-box}*{margin:0}html,body{overflow:hidden;height:100%}body{position:relative;margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}img,picture,video,canvas,svg{display:block;max-width:100%;image-rendering:webkit-optimize-contrast}img{max-width:none}input,button,textarea,select{font:inherit}p,h1,h2,h3,h4,h5,h6{overflow-wrap:break-word}.static{position:static}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.w-full{width:100%}.h-full{height:100%}.size-full{width:100%;height:100%}.top-0{top:0}.bottom-0{bottom:0}.left-0{left:0}.right-0{right:0}.inset-0{inset:0}.cursor-auto{cursor:auto}.cursor-pointer{cursor:pointer}.pointer-events-auto{pointer-events:auto}.pointer-events-none{pointer-events:none}.overflow-auto{overflow:auto}.overflow-hidden{overflow:hidden}.overflow-clip{overflow:clip}.overflow-visible{overflow:visible}.overflow-scroll{overflow:scroll}:root{--mby-color-blue: 0 0 255;--mby-color-green: 0 255 0;--mby-color-pink: 255 14 178;--color-black: 0 0 0;--color-white: 255 255 255;--grad-color-1b: rgba(var(--color-black) / 1);--grad-color-2b: rgba(var(--color-black) / 1);--grad-color-3b: rgba(var(--color-black) / 0);--grad-color-1w: rgba(var(--color-white) / 1);--grad-color-2w: rgba(var(--color-white) / 1);--grad-color-3w: rgba(var(--color-white) / 0);--grad-color-1blue: rgba(var(--mby-color-blue) / 1);--grad-color-2blue: rgba(var(--mby-color-blue) / 1);--grad-color-3blue: rgba(var(--mby-color-blue) / 0);--background: white}.debug{outline:1px dashed #1e2189}body{display:flex;justify-content:center;align-items:center}#banner{flex-shrink:0;background:var(--background)}#wrapper{perspective:500px}#border{z-index:30;border:var(--border)}#cover{position:absolute;left:0;top:0;width:100%;height:200%;pointer-events:none;background:linear-gradient(to bottom,var(--grad-color-1w) 0%,var(--grad-color-2w) 50%,var(--grad-color-3w) 100%)}#nota{font-family:Montserrat,Arial,Helvetica,"sans-serif";position:relative;width:100%;height:100%;color:#000;pointer-events:none}#nota-button{position:absolute;color:#000;left:0;bottom:0;padding:3px;pointer-events:all;cursor:pointer;text-transform:uppercase;font-size:8px;font-weight:600;background-color:#ffffffbf;backdrop-filter:blur(8px)}#nota-content{position:absolute;padding:8px;font-size:10px;font-weight:400;top:100%;width:100%;background-color:#fffffff2;backdrop-filter:blur(8px)}ol,ul{padding-left:1.5em}a{text-decoration:underline;color:inherit}
+      </style>
+  </head>
+
+  <body
+    data-size="500x300"
+    data-line="generic"
+    onload="banner.init();"
+  >
+
+    <script>
+      var clickTag = "https://www.filmweb.pl/";
+    </script>
+
+    <div id="banner" class="relative overflow-hidden cursor-pointer"
+      style="width: 500px; height: 300px; border-radius: 15px;"
+      title="DisplayAd"
+      >
+      <div id="wrapper" class="absolute size-full">
+
+        
+        
+        
+        <div>
+        <!-- id: background -->
+        <img
+          id="background"
+          src="images/background.jpg"
+          alt="background"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 0px;
+            top: 0px;
+            width: 500px;
+            height: 300px;"
+        />
+        
+        <!-- id: free_yt -->
+        <img
+          id="free_yt"
+          src="images/free_yt.svg"
+          alt="free_yt"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 18px;
+            top: 137px;
+            width: 189px;
+            height: 43px;"
+        />
+        
+        <!-- id: sto_plus -->
+        <img
+          id="sto_plus"
+          src="images/sto_plus.svg"
+          alt="sto_plus"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 52.6px;
+            top: 90px;
+            width: 120px;
+            height: 38.9px;"
+        />
+        
+        <!-- id: poster3 -->
+        <img
+          id="poster3"
+          src="images/poster3.png"
+          alt="poster3"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 196px;
+            top: 0px;
+            width: 147px;
+            height: 270px;"
+        />
+        
+        <!-- id: poster2 -->
+        <img
+          id="poster2"
+          src="images/poster2.png"
+          alt="poster2"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 288px;
+            top: 0px;
+            width: 147px;
+            height: 270px;"
+        />
+        
+        <!-- id: poster1 -->
+        <img
+          id="poster1"
+          src="images/poster1.png"
+          alt="poster1"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 379px;
+            top: 0px;
+            width: 121px;
+            height: 270px;"
+        />
+        
+        <!-- id: cta -->
+        <img
+          id="cta"
+          src="images/cta.svg"
+          alt="cta"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 56px;
+            top: 209px;
+            width: 112px;
+            height: 30px;"
+        />
+        
+        <!-- id: ffy -->
+        <img
+          id="ffy"
+          src="images/ffy.svg"
+          alt="ffy"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 34px;
+            top: 26px;
+            width: 156px;
+            height: 30.6px;"
+        />
+        </div>
+        
+        <style>
+        
+        #cta {
+          filter: drop-shadow(0px 10px 8px rgb(0 0 0 / .2));
+        }
+        
+        #oferta_box {
+          perspective: 400px;
+          position: absolute;
+          width: px;
+          height: px;
+          top: px;
+          left: px;
+          transform: rotate(NaNdeg);
+          transform-origin: top left;
+        }
+        </style>
+
+      </div>
+
+      <div id="cover" class=""></div>
+
+      
+
+      <div id="border" class="absolute inset-0 size-full pointer-events-none _border"></div>
+    </div>
+
+    <!-- data -->
+    <script data-extra>
+      window.banner = {
+        "width": 500,
+        "height": 300,
+        "data": {
+          "width": 500,
+          "height": 300,
+          "publisher": "filmweb",
+          "size": "500x300",
+          "line": "generic",
+          "lineData": {
+            "dom": "dom_structure",
+            "tl": "main",
+            "ctaBgColor": "#ffffff",
+            "priceColor": "#ffffff"
+          },
+          "elements": [
+            "background",
+            "free_yt",
+            "sto_plus",
+            "poster3",
+            "poster2",
+            "poster1",
+            "cta",
+            "ffy"
+          ],
+          "screenshotsTimings": [
+            1.94,
+            4.2
+          ]
+        }
+      };
+    </script>
+
+    <!-- animation -->
+    <script data-animation>
+      let banner=window.banner||{};banner.init=function(){const e=document.querySelector("#banner"),a=document.querySelector("#wrapper");function o(){gsap.defaults({ease:"power2.inOut",duration:1,transformOrigin:"center center"}),gsap.config({nullTargetWarn:!1})}function i(){e.addEventListener("click",r=>{window.open(clickTag)})}function l(){const r=()=>{const{clientWidth:t,clientHeight:n}=document.documentElement,{clientWidth:u,clientHeight:s}=e,{width:p,height:d}=a;let c=Math.min(t/u,n/s,1),f=Math.min(t/p,n/d,1);c>.995&&(c=1),e.style.transform="scale("+c+")",a.style.transform="scale("+f+")"};window.addEventListener("resize",r),r()}function h(){let r=document.querySelector("#nota-button"),t=document.querySelector("#nota-content"),n=t.clientHeight-banner.height,u=1.5,s=.3,p=n/100;function d(){n>0?gsap.to(t,{duration:s,y:-e.clientHeight,onComplete:function(){gsap.to(t,{duration:p,delay:u,y:"-="+n,ease:Power0.easeNone})}}):gsap.to(t,{duration:s,yPercent:-100})}function c(){gsap.killTweensOf(t),n>0?gsap.to(t,s,{y:0}):gsap.to(t,s,{yPercent:0})}r.addEventListener("mouseenter",function(){d()}),r.addEventListener("mouseleave",function(){c()})}o(),i(),l(),console.log(banner),this.animations[`${banner.data.lineData.tl}`]()},banner.state={debug:!1},banner.utils={toggleDebug:()=>{console.log(banner.data);const e=document.querySelector("#banner"),a=()=>{e.style.overflow="visible"},o=()=>{e.style.overflow="hidden"};banner.state.debug?o():a(),banner.data.elements.forEach(i=>{document.querySelector(`#${i}`).classList.toggle("debug")}),banner.state.debug=!banner.state.debug}},banner.animations={sub:{checkStop:e=>function(){e.totalProgress()>.85&&(gsap.to("#cover",{duration:.1,alpha:0}),e.pause())},showLetters:e=>gsap.timeline().from(e,{duration:1.2,x:"+=100",scale:.2,alpha:0,ease:"expo.out",stagger:{each:.02,ease:"power1.inOut"}},"<"),pulse:e=>gsap.timeline({repeat:5,yoyo:!0}).to(e,{duration:.45,transformOrigin:"center center",scale:.95,ease:"power2.inOut"})},main:function(){const e=()=>{["#label_01a_ol","#label_01b","#label_02","#label_03","#label_04"].forEach(o=>{document.querySelectorAll(`${o} path`).forEach(l=>{l.style.fill=`${banner.data.lineData.copyColor}`})})},a={kv:"50% 65%"};banner.tl=gsap.timeline({id:"flashback",repeat:1,defaults:{ease:"power2.inOut"}}),window.tl=banner.tl,banner.tl.set([],{alpha:0}),banner.tl.to("#cover",{duration:.8,yPercent:"-100",ease:"power2.inOut"},"<").addLabel("f1","<+.25").from("#background",{duration:.3,alpha:0,ease:"power2.out"},"f1").from(["#poster1","#poster2","#poster3"],{duration:1.2,stagger:.1,x:"+=300",alpha:0,rotationY:30,scale:1.1,ease:"power3.out"},"<+.1").from("#ffy",{duration:1.4,alpha:0,scale:.4,ease:"power2.inOut"},"<+.8").from("#sto_plus",{duration:1.4,alpha:0,scale:.4,ease:"power2.inOut"},"<+.2").from("#free_yt",{duration:1.4,alpha:0,scale:.4,ease:"power2.inOut"},"<+.2").from("#cta",{duration:1.4,alpha:0,rotationY:90,rotationX:20,scale:2.7,ease:"power3.out"},"<+.6").add(this.sub.checkStop(banner.tl),">+3").to("#cover",{duration:.8,yPercent:"0",ease:"power2.inOut"},">+.5")},video:function(){const e=()=>{["#label_01a_ol","#label_01b","#label_02","#label_03","#label_04"].forEach(o=>{document.querySelectorAll(`${o} path`).forEach(l=>{l.style.fill=`${banner.data.lineData.copyColor}`})})},a={kv:"50% 65%"};banner.tl=gsap.timeline({id:"flashback",repeat:1,defaults:{ease:"power2.inOut"}}),window.tl=banner.tl,banner.tl.set([],{alpha:0}),banner.tl.to("#cover",{duration:.8,yPercent:"-100",ease:"power2.inOut"},"<").addLabel("f1","<+.25").from("#logo",{duration:1.4,alpha:0,y:"+20",scale:.8,ease:"power3.out"},"<+.6").from("#claim",{duration:1.4,alpha:0,y:"+20",scale:.8,ease:"power3.out"},"<+.2").from("#ffy",{duration:1.4,alpha:0,y:"+20",scale:.8,ease:"power3.out"},"<+.2").from("#cta",{duration:1.4,alpha:0,rotationY:90,rotationX:20,scale:2.7,ease:"power3.out"},"<+.9").add(this.sub.checkStop(banner.tl),">+3").to(["#logo","#claim","#ffy","#cta"],{duration:.8,alpha:0,stagger:.05,y:"+10",scale:.8,ease:"power3.inOut"},"<+.6").to("#cover",{duration:.8,yPercent:"0",ease:"power2.inOut"},">+.5")}};
+      
+    </script>
+  </body>
+</html>
