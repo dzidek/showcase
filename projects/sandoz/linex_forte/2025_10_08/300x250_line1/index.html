@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<!--
+##############> flashback.agency <##############
+    ______           __    __               __  
+   / __/ /___ ______/ /_  / /_  ____ ______/ /__
+  / /_/ / __ `/ ___/ __ \/ __ \/ __ `/ ___/ //_/
+ / __/ / /_/ (__  ) / / / /_/ / /_/ / /__/ ,<   
+/_/ /_/\__,_/____/_/ /_/_.___/\__,_/\___/_/|_|  
+                                                
+#########> jakub.idzikowski@gmail.com <#########
+-->
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <title>300x250_line1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="ad.size" content="width=300,height=250" />
+    <meta name="author" content="flashback.agency - jakub.idzikowski@gmail.com" />
+
+    <!-- libs -->
+    <script src="https://s0.2mdn.net/ads/studio/cached_libs/gsap_3.11.5_min.js"></script>
+
+    <!-- styles -->
+    <style data-styles>
+      /* styles */
+      *,*:before,*:after{box-sizing:border-box}*{margin:0}html,body{overflow:hidden;height:100%}body{position:relative;margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}img,picture,video,canvas,svg{display:block;max-width:100%;image-rendering:webkit-optimize-contrast}img{max-width:none}input,button,textarea,select{font:inherit}p,h1,h2,h3,h4,h5,h6{overflow-wrap:break-word}.static{position:static}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.w-full{width:100%}.h-full{height:100%}.size-full{width:100%;height:100%}.top-0{top:0}.bottom-0{bottom:0}.left-0{left:0}.right-0{right:0}.inset-0{inset:0}.cursor-auto{cursor:auto}.cursor-pointer{cursor:pointer}.pointer-events-auto{pointer-events:auto}.pointer-events-none{pointer-events:none}.overflow-auto{overflow:auto}.overflow-hidden{overflow:hidden}.overflow-clip{overflow:clip}.overflow-visible{overflow:visible}.overflow-scroll{overflow:scroll}:root{--mby-color-blue: 0 0 255;--mby-color-green: 0 255 0;--mby-color-pink: 255 14 178;--color-black: 0 0 0;--color-white: 255 255 255;--grad-color-1b: rgba(var(--color-black) / 1);--grad-color-2b: rgba(var(--color-black) / 1);--grad-color-3b: rgba(var(--color-black) / 0);--grad-color-1w: rgba(var(--color-white) / 1);--grad-color-2w: rgba(var(--color-white) / 1);--grad-color-3w: rgba(var(--color-white) / 0);--grad-color-1blue: rgba(var(--mby-color-blue) / 1);--grad-color-2blue: rgba(var(--mby-color-blue) / 1);--grad-color-3blue: rgba(var(--mby-color-blue) / 0);--sandoz-color-blue: 89 179 249;--sandoz-color-1blue: rgba(var(--sandoz-color-blue) / 1);--sandoz-color-2blue: rgba(var(--sandoz-color-blue) / 1);--sandoz-color-3blue: rgba(var(--sandoz-color-blue) / 0);--border: 1px solid rgb(0 0 0 / .1);--background: white}.debug{outline:1px dashed #1e2189}body{display:flex;justify-content:center;align-items:center}#banner{flex-shrink:0;background:var(--background)}#wrapper{perspective:500px}#border{z-index:30;border:var(--border)}#cover{position:absolute;left:0;top:0;width:100%;height:200%;pointer-events:none;background:linear-gradient(to bottom,var(--sandoz-color-1blue) 0%,var(--sandoz-color-2blue) 50%,var(--sandoz-color-3blue) 100%)}#nota{font-family:Montserrat,Arial,Helvetica,"sans-serif";position:relative;width:100%;height:100%;color:#000;pointer-events:none}#nota-button{position:absolute;color:#000;left:0;bottom:0;padding:3px;pointer-events:all;cursor:pointer;text-transform:uppercase;font-size:8px;font-weight:600;background-color:#ffffffbf;backdrop-filter:blur(8px)}#nota-content{position:absolute;padding:8px;font-size:10px;font-weight:400;top:100%;width:100%;background-color:#fffffff2;backdrop-filter:blur(8px)}ol,ul{padding-left:1.5em}a{text-decoration:underline;color:inherit}
+      </style>
+  </head>
+
+  <body
+    data-size="300x250"
+    data-line="line1"
+    onload="banner.init();"
+  >
+
+    <script>
+      var clickTag = "https://www.google.com/";
+    </script>
+
+    <div id="banner" class="relative overflow-hidden cursor-pointer" style="width: 300px; height: 250px;" title="DisplayAd">
+      <div id="wrapper" class="absolute size-full">
+
+        
+        
+        
+        
+        <div style="perspective: 500px;">
+        <!-- id: kv -->
+        <img
+          id="kv"
+          src="images/kv.jpg"
+          alt="kv"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 0px;
+            top: 0px;
+            width: 300px;
+            height: 250px;"
+        />
+        
+        <!-- id: logo_sandoz_f1 -->
+        <img
+          id="logo_sandoz_f1"
+          src="images/logo_sandoz_f1.svg"
+          alt="logo_sandoz_f1"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 203px;
+            top: 227.8px;
+            width: 83px;
+            height: 11.4px;"
+        />
+        
+        <!-- id: logo_forte -->
+        <img
+          id="logo_forte"
+          src="images/logo_forte.png"
+          alt="logo_forte"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 13px;
+            top: 212.8px;
+            width: 77px;
+            height: 27.1px;"
+        />
+        
+        <!-- id: txt_01 -->
+        <img
+          id="txt_01"
+          src="images/txt_01.svg"
+          alt="txt_01"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 13px;
+            top: 6px;
+            width: 161px;
+            height: 70px;"
+        />
+        
+        <!-- id: bg_blue -->
+        <img
+          id="bg_blue"
+          src="images/bg_blue.svg"
+          alt="bg_blue"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 0px;
+            top: 0px;
+            width: 300px;
+            height: 250px;"
+        />
+        
+        <!-- id: packshot -->
+        <img
+          id="packshot"
+          src="images/packshot.png"
+          alt="packshot"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 75.4px;
+            top: 55px;
+            width: 213.6px;
+            height: 121px;"
+        />
+        
+        <!-- id: badge_nr1 -->
+        <img
+          id="badge_nr1"
+          src="images/badge_nr1.png"
+          alt="badge_nr1"
+          style="position: absolute;
+            transform: rotate(-6.2deg);
+            left: 120.1px;
+            top: 59.2px;
+            width: 56px;
+            height: 56px;"
+        />
+        
+        <!-- id: logo_sandoz_f2 -->
+        <img
+          id="logo_sandoz_f2"
+          src="images/logo_sandoz_f2.svg"
+          alt="logo_sandoz_f2"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 203px;
+            top: 187.8px;
+            width: 83px;
+            height: 11.4px;"
+        />
+        
+        <!-- id: txt_id -->
+        <img
+          id="txt_id"
+          src="images/txt_id.svg"
+          alt="txt_id"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 247px;
+            top: 233px;
+            width: 39px;
+            height: 8px;"
+        />
+        
+        <!-- id: txt_caution -->
+        <img
+          id="txt_caution"
+          src="images/txt_caution.svg"
+          alt="txt_caution"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 13px;
+            top: 209px;
+            width: 259px;
+            height: 32px;"
+        />
+        
+        <!-- id: txt_info -->
+        <img
+          id="txt_info"
+          src="images/txt_info.svg"
+          alt="txt_info"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 13px;
+            top: 49px;
+            width: 113px;
+            height: 144px;"
+        />
+        
+        <!-- id: txt_02 -->
+        <img
+          id="txt_02"
+          src="images/txt_02.svg"
+          alt="txt_02"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 13px;
+            top: 6px;
+            width: 243px;
+            height: 35px;"
+        />
+        </div>
+        
+        <style>
+        
+        #cta {
+          filter: drop-shadow(0px 10px 8px rgb(0 0 0 / .1));
+        }
+        
+        </style>
+
+      </div>
+
+      <div id="cover" class=""></div>
+      <div id="border" class="absolute inset-0 size-full pointer-events-none border"></div>
+    </div>
+
+    <!-- data -->
+    <script data-extra>
+      window.banner = {
+        "width": 300,
+        "height": 250,
+        "data": {
+          "width": 300,
+          "height": 250,
+          "jpgQuality": 98,
+          "publisher": "gdn",
+          "size": "300x250",
+          "line": "line1",
+          "lineData": {
+            "name": "line1",
+            "dom": "dom_line1.njk",
+            "slidesNum": 2,
+            "shots": [
+              2.5,
+              7.1
+            ]
+          },
+          "elements": [
+            "kv",
+            "logo_sandoz_f1",
+            "logo_forte",
+            "txt_01",
+            "bg_blue",
+            "packshot",
+            "badge_nr1",
+            "logo_sandoz_f2",
+            "txt_id",
+            "txt_caution",
+            "txt_info",
+            "txt_02"
+          ],
+          "screenshotsTimings": [
+            2.5,
+            7.1
+          ]
+        }
+      };
+    </script>
+
+    <!-- animation -->
+    <script data-animation>
+      let banner=window.banner||{};banner.init=function(){const e=document.querySelector("#banner"),a=document.querySelector("#wrapper");function l(){gsap.defaults({ease:"power2.inOut",duration:1,transformOrigin:"center center"}),gsap.config({nullTargetWarn:!1})}function s(){e.addEventListener("click",o=>{window.open(clickTag)})}function u(){const o=()=>{const{clientWidth:t,clientHeight:n}=document.documentElement,{clientWidth:p,clientHeight:r}=e,{width:d,height:f}=a;let i=Math.min(t/p,n/r,1),h=Math.min(t/d,n/f,1);i>.995&&(i=1),e.style.transform="scale("+i+")",a.style.transform="scale("+h+")"};window.addEventListener("resize",o),o()}function c(){let o=document.querySelector("#nota-button"),t=document.querySelector("#nota-content"),n=t.clientHeight-banner.height,p=1.5,r=.3,d=n/100;function f(){n>0?gsap.to(t,{duration:r,y:-e.clientHeight,onComplete:function(){gsap.to(t,{duration:d,delay:p,y:"-="+n,ease:Power0.easeNone})}}):gsap.to(t,{duration:r,yPercent:-100})}function i(){gsap.killTweensOf(t),n>0?gsap.to(t,r,{y:0}):gsap.to(t,r,{yPercent:0})}o.addEventListener("mouseenter",function(){f()}),o.addEventListener("mouseleave",function(){i()})}l(),s(),u(),console.log(banner),this.animations["main_"+banner.data.line]()},banner.state={debug:!1},banner.utils={toggleDebug:()=>{console.log(banner.data);const e=document.querySelector("#banner"),a=()=>{e.style.overflow="visible"},l=()=>{e.style.overflow="hidden"};banner.state.debug?l():a(),banner.data.elements.forEach(s=>{document.querySelector(`#${s}`).classList.toggle("debug")}),banner.state.debug=!banner.state.debug}},banner.animations={sub:{checkStop:e=>function(){e.totalProgress()>.85&&(gsap.to("#cover",{duration:.1,alpha:0}),e.pause())},showLetters:e=>gsap.timeline().from(e,{duration:1.2,x:"+=100",scale:.2,alpha:0,ease:"expo.out",stagger:{each:.02,ease:"power1.inOut"}},"<"),pulse:e=>gsap.timeline({repeat:5,yoyo:!0}).to(e,{duration:.45,transformOrigin:"center center",scale:.95,ease:"power2.inOut"})},main_line1:function(){const e=()=>{["#label_01a_ol","#label_01b","#label_02","#label_03","#label_04"].forEach(c=>{document.querySelectorAll(`${c} path`).forEach(t=>{t.style.fill=`${banner.data.lineData.copyColor}`})})},a={kv:"50% 65%"};banner.tl=gsap.timeline({id:"flashback",repeat:1,defaults:{ease:"power2.inOut"}}),window.tl=banner.tl,banner.tl.set([],{alpha:0});const l="power4.inOut";banner.tl.to("#cover",{duration:.8,yPercent:"-100",ease:"power2.inOut"},"<").addLabel("f1","<+.4").from("#kv",{duration:2.2,scale:1.1,rotationX:"-4",ease:"power2.out"},"f1").from("#logo_forte",{duration:.8,alpha:0,y:"+20",ease:"power2.out"},"<+.4").from("#logo_sandoz_f1",{duration:.8,alpha:0,y:"+6",ease:"power2.out"},"<+.2").from("#txt_01",{duration:.8,alpha:0,y:"+6",ease:"power2.out"},"<+.2").from("#bg_blue",{duration:.4,alpha:0,ease:"power2.out"},"<+2.2").from("#txt_02",{duration:.8,alpha:0,y:"+6",ease:"power2.out"},"<+.2").from("#packshot",{duration:1.8,alpha:0,scale:.9,y:"+6",x:"+12",rotationY:"+14",ease:"power3.out"},"<+.2").from("#logo_sandoz_f2",{duration:.4,alpha:0,ease:"power2.out"},"<+.2").from("#badge_nr1",{duration:1.2,alpha:0,scale:.4,ease:"back.out(1.4)"},"<+.2").from(["#txt_info","#txt_caution","#txt_id"],{duration:.8,alpha:0,stagger:.1,ease:"none"},"<+.8").add(this.sub.checkStop(banner.tl),">+3").to("#cover",{duration:.8,yPercent:"0",ease:"power2.inOut"},">+.5")},main_line2:function(){const e=()=>{["#label_01a_ol","#label_01b","#label_02","#label_03","#label_04"].forEach(c=>{document.querySelectorAll(`${c} path`).forEach(t=>{t.style.fill=`${banner.data.lineData.copyColor}`})})},a={kv:"50% 65%"};banner.tl=gsap.timeline({id:"flashback",repeat:1,defaults:{ease:"power2.inOut"}}),window.tl=banner.tl,banner.tl.set([],{alpha:0});const l="power4.inOut",s="back.out(1.4)";banner.tl.to("#cover",{duration:.8,yPercent:"-100",ease:"power2.inOut"},"<").addLabel("f1","<+.4").from("#kv",{duration:2.2,scale:1.1,rotationX:"-4",ease:"power2.out"},"f1").from("#logo_sandoz_f1",{duration:.8,alpha:0,y:"+6",ease:"power2.out"},"<+.4").from("#txt_01",{duration:.8,alpha:0,y:"+6",ease:"power2.out"},"<+.2").to("#txt_01",{duration:.4,alpha:0,ease:"power2.out"},"<+2.2").from("#txt_02",{duration:.8,alpha:0,y:"+6",ease:"power2.out"},"<+.2").from("#bg_blue",{duration:.4,alpha:0,ease:"power2.out"},"<+2.2").from("#txt_03",{duration:.8,alpha:0,y:"+6",ease:"power2.out"},"<+.2").from("#packshot",{duration:1.8,alpha:0,scale:.9,y:"+6",x:"+12",rotationY:"+14",ease:"power3.out"},"<+.2").from("#logo_sandoz_f2",{duration:.4,alpha:0,ease:"power2.out"},"<+.2").from(["#txt_info","#txt_caution","#txt_id"],{duration:.8,alpha:0,stagger:.1,ease:"none"},"<+.8").add(this.sub.checkStop(banner.tl),">+3").to("#cover",{duration:.8,yPercent:"0",ease:"power2.inOut"},">+.5")}};
+      
+    </script>
+  </body>
+</html>
