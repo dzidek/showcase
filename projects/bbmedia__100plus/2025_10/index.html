@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--
+##############> flashback.agency <##############
+    ______           __    __               __  
+   / __/ /___ ______/ /_  / /_  ____ ______/ /__
+  / /_/ / __ `/ ___/ __ \/ __ \/ __ `/ ___/ //_/
+ / __/ / /_/ (__  ) / / / /_/ / /_/ / /__/ ,<   
+/_/ /_/\__,_/____/_/ /_/_.___/\__,_/\___/_/|_|  
+                                                
+#########> jakub.idzikowski@gmail.com <#########
+-->
+<html lang="pl">
+  <head>
+    
+    <meta charset="utf-8" />
+    <title>BBmedia - 100plus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="flashback.agency - jakub.idzikowski@gmail.com" />
+
+    <!-- meta -->
+    <meta name="timings" content="1.94|4.2" />
+
+    <!-- libs -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/GSDevTools.min.js"></script>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+
+    <!-- styles -->
+    <style data-style>
+    body{font-family:Inter,-apple-system,system-ui,Segoe UI,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";box-sizing:border-box;font-weight:400}.show{animation-duration:.3s;animation-name:slidein;animation-direction:alternate;animation-fill-mode:backwards}@keyframes slidein{0%{opacity:0;transform:translateY(25%) scale(.9)}to{opacity:1;transform:translateY(0) scale(1)}}
+    
+    </style>
+
+  </head>
+
+  <body>
+
+    <!-- Top -->
+    <div class="container is-fluid has-background-black has-text-grey-lighter py-2 is-size-7">
+      Formats listing
+    </div>
+
+    <main class="js-main container is-fluid section pt-4">
+
+      <!-- Title -->
+      <section class="block is-info">
+        <h1 class="title">BBmedia - 100plus</h1>
+        <h2 class="subtitle">FILM PLANET</h2>
+      </section>
+
+      <!-- Navigation -->
+      <section class="block is-flex is-justify-content-center is-flex-wrap-wrap" style="gap: .5rem;">
+        <button
+          type="button"
+          class="js-menu-button show button is-small"
+          data-index="0"
+          data-url="500x300"
+          data-width="500"
+          data-height="300"
+          style="animation-delay: 0s"
+        >
+          500x300
+        </button>
+        
+        <button
+          type="button"
+          class="js-menu-button show button is-small"
+          data-index="1"
+          data-url="300x600"
+          data-width="300"
+          data-height="600"
+          style="animation-delay: 0.04s"
+        >
+          300x600
+        </button>
+        </section>
+  
+      <!-- Preview -->
+      <section class="block has-text-centered">
+        <div class="block is-flex is-justify-content-center">
+          <iframe class="js-preview" frameborder="0" src="" style="border: none;">
+            
+          </iframe>
+        </div>
+        <div class="block">
+          <a href="#" class="js-link tag is-link" target="_blank">
+            Open banner in new window
+          </a>
+        </div>
+      </section>
+    </main>
+
+  <script data-script>
+  document.addEventListener("DOMContentLoaded",s=>{gsap.registerPlugin(GSDevTools)});const init=()=>{let s={dtInited:!1};const n=document.querySelector(".js-main"),l=[...document.querySelectorAll(".js-menu-button")],t=document.querySelector(".js-preview"),d=document.querySelector(".js-link"),o=()=>{l[0].click()};l.forEach(e=>{e.addEventListener("click",a=>{const i=new CustomEvent("format-selected",{bubbles:!0,detail:{id:a.target.dataset.index,dataset:a.target.dataset}});a.target.dispatchEvent(i)})}),t.addEventListener("load",e=>{t.style.display="block",gsap.from(t,{duration:.8,autoAlpha:0,transformPerspective:500,scale:.92,ease:"power3.inOut"});let i=t.contentWindow.tl;i.pause(0);let r=gsap.timeline({id:"animation"}).to(i,{duration:i.totalDuration(),totalProgress:1,ease:"none"});s.dtInited?GSDevTools.getById("dt").kill():s.dtInited=!0,GSDevTools.create({id:"dt",animation:r,loop:!1,globalSync:!1,hideGlobalTimeline:!0});let c=document.querySelector(".gs-bottom-right a");c.style.display="none"}),n.addEventListener("format-selected",e=>{t.style.display="none",l.forEach(a=>{a.dataset.index==e.detail.id?a.classList.add("is-active"):a.classList.remove("is-active")}),t.src=`${e.detail.dataset.url}/index.html`,t.style.width=`${e.detail.dataset.width}px`,t.style.height=`${e.detail.dataset.height}px`,d.href=`${e.detail.dataset.url}/index.html`,d.href=`${e.detail.dataset.url}/index.html`}),o()};init();
+    
+  </script>
+
+  
+
+  </body>
+</html>
