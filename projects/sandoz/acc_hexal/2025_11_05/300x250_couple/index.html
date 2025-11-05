@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<!--
+##############> flashback.agency <##############
+    ______           __    __               __  
+   / __/ /___ ______/ /_  / /_  ____ ______/ /__
+  / /_/ / __ `/ ___/ __ \/ __ \/ __ `/ ___/ //_/
+ / __/ / /_/ (__  ) / / / /_/ / /_/ / /__/ ,<   
+/_/ /_/\__,_/____/_/ /_/_.___/\__,_/\___/_/|_|  
+                                                
+#########> jakub.idzikowski@gmail.com <#########
+-->
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <title>300x250_couple</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="ad.size" content="width=300,height=250" />
+    <meta name="author" content="flashback.agency - jakub.idzikowski@gmail.com" />
+
+    <!-- libs -->
+    <script src="https://s0.2mdn.net/ads/studio/cached_libs/gsap_3.11.5_min.js"></script>
+    <script src="./js/CustomBounce.min.js"></script>
+    <script src="./js/CustomEase.min.js"></script>
+
+    <!-- styles -->
+    <style data-styles>
+      /* styles */
+      *,*:before,*:after{box-sizing:border-box}*{margin:0}html,body{overflow:hidden;height:100%}body{position:relative;margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}img,picture,video,canvas,svg{display:block;max-width:100%;image-rendering:webkit-optimize-contrast}img{max-width:none}input,button,textarea,select{font:inherit}p,h1,h2,h3,h4,h5,h6{overflow-wrap:break-word}.static{position:static}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.w-full{width:100%}.h-full{height:100%}.size-full{width:100%;height:100%}.top-0{top:0}.bottom-0{bottom:0}.left-0{left:0}.right-0{right:0}.inset-0{inset:0}.cursor-auto{cursor:auto}.cursor-pointer{cursor:pointer}.pointer-events-auto{pointer-events:auto}.pointer-events-none{pointer-events:none}.overflow-auto{overflow:auto}.overflow-hidden{overflow:hidden}.overflow-clip{overflow:clip}.overflow-visible{overflow:visible}.overflow-scroll{overflow:scroll}:root{--mby-color-blue: 0 0 255;--mby-color-green: 0 255 0;--mby-color-pink: 255 14 178;--color-black: 0 0 0;--color-white: 255 255 255;--grad-color-1b: rgba(var(--color-black) / 1);--grad-color-2b: rgba(var(--color-black) / 1);--grad-color-3b: rgba(var(--color-black) / 0);--grad-color-1w: rgba(var(--color-white) / 1);--grad-color-2w: rgba(var(--color-white) / 1);--grad-color-3w: rgba(var(--color-white) / 0);--grad-color-1blue: rgba(var(--mby-color-blue) / 1);--grad-color-2blue: rgba(var(--mby-color-blue) / 1);--grad-color-3blue: rgba(var(--mby-color-blue) / 0);--sd-color-blue: 89 179 249;--sd-color-1blue: rgba(var(--sd-color-blue) / 1);--sd-color-2blue: rgba(var(--sd-color-blue) / 1);--sd-color-3blue: rgba(var(--sd-color-blue) / 0);--uc-color: 181 0 21;--uc-color-1: rgba(var(--uc-color) / 1);--uc-color-2: rgba(var(--uc-color) / 1);--uc-color-3: rgba(var(--uc-color) / 0);--border: 1px solid rgb(0 0 0 / .25);--background: #1F4177;--radius: 0px}.debug{outline:1px dashed #1e2189}body{display:flex;justify-content:center;align-items:center}#banner{flex-shrink:0;background:var(--background);border-radius:var(--radius)}#wrapper{perspective:500px}#border{z-index:30;border:var(--border);border-radius:var(--radius)}#cover{position:absolute;left:0;top:0;width:100%;height:200%;pointer-events:none;background:linear-gradient(to bottom,var(--grad-color-1w) 0%,var(--grad-color-2w) 50%,var(--grad-color-3w) 100%)}#nota{font-family:Montserrat,Arial,Helvetica,"sans-serif";position:relative;width:100%;height:100%;color:#000;pointer-events:none}#nota-button{position:absolute;color:#000;left:0;bottom:0;padding:3px;pointer-events:all;cursor:pointer;text-transform:uppercase;font-size:8px;font-weight:600;background-color:#ffffffbf;backdrop-filter:blur(8px)}#nota-content{position:absolute;padding:8px;font-size:10px;font-weight:400;top:100%;width:100%;background-color:#fffffff2;backdrop-filter:blur(8px)}ol,ul{padding-left:1.5em}a{text-decoration:underline;color:inherit}
+      </style>
+  </head>
+
+  <body
+    data-size="300x250"
+    data-line="couple"
+    onload="banner.init();"
+  >
+
+    <script>
+      var clickTag = "https://www.google.com/";
+    </script>
+
+    <div id="banner" class="relative overflow-hidden cursor-pointer" style="width: 300px; height: 250px;" title="DisplayAd">
+      <div id="wrapper" class="absolute size-full">
+
+        
+        
+        
+        
+        <div style="perspective: 500px;">
+        <!-- id: txt_01 -->
+        <img
+          id="txt_01"
+          src="images/txt_01.svg"
+          alt="txt_01"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 10px;
+            top: 10px;
+            width: 184px;
+            height: 124px;"
+        />
+        
+        <!-- id: txt_02 -->
+        <img
+          id="txt_02"
+          src="images/txt_02.svg"
+          alt="txt_02"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 45px;
+            top: 89px;
+            width: 210px;
+            height: 72px;"
+        />
+        <div id="imgs_holder">
+        
+          <div id="imgs">
+        <!-- id: img_01 -->
+        <img
+          id="img_01"
+          src="images/img_01.jpg"
+          alt="img_01"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 0px;
+            top: 0px;
+            width: 300px;
+            height: 200px;"
+        />
+        
+        <!-- id: img_02 -->
+        <img
+          id="img_02"
+          src="images/img_02.jpg"
+          alt="img_02"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 0px;
+            top: 0px;
+            width: 300px;
+            height: 200px;"
+        />
+        <div id="speaker">
+        <!-- id: speaker_2 -->
+        <img
+          id="speaker_2"
+          src="images/speaker_2.png"
+          alt="speaker_2"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 0px;
+            top: 0px;
+            width: 55px;
+            height: 108px;"
+        />
+        
+        <!-- id: speaker_1 -->
+        <img
+          id="speaker_1"
+          src="images/speaker_1.png"
+          alt="speaker_1"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 0px;
+            top: 0px;
+            width: 55px;
+            height: 108px;"
+        />
+        </div>
+        
+          </div>
+        
+        </div>
+        <!-- id: hust -->
+        <div
+          id="hust"
+          style="position: absolute;
+            transform: rotate(0deg);
+            transform-origin: top left;
+            left: 0px;
+            top: 0px;
+            width: 300px;
+            height: 250px;"
+          >
+          <!-- embed: hust -->
+          <svg width="300" height="250" viewBox="0 0 300 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="hust&#240;&#159;&#145;&#136;">
+          <path id="hust_1" d="M37.436 142.506L31.2062 118.438L35.382 117.357L37.6805 126.237C37.9905 125.643 38.5032 125.009 39.2186 124.335C39.934 123.661 40.9377 123.157 42.2298 122.822C43.2635 122.555 44.2296 122.486 45.1283 122.617C46.0356 122.733 46.8401 123.033 47.5415 123.515C48.2517 123.983 48.8602 124.615 49.3671 125.412C49.8827 126.193 50.2743 127.101 50.5419 128.134L53.2053 138.424L48.9414 139.528L46.2871 129.273C46.0074 128.192 45.4979 127.434 44.7586 126.999C44.0192 126.564 43.1797 126.468 42.24 126.711C41.6645 126.86 41.1545 127.117 40.7103 127.483C40.2629 127.837 39.9104 128.267 39.6527 128.772C39.392 129.266 39.2273 129.816 39.1588 130.423C39.099 131.015 39.1496 131.622 39.3108 132.244L41.6823 141.406L37.436 142.506ZM55.5207 130.737L52.8573 120.447L57.1036 119.348L59.7578 129.603C60.0376 130.683 60.5486 131.447 61.291 131.894C62.042 132.326 62.8874 132.421 63.8271 132.178C64.4027 132.029 64.9141 131.777 65.3614 131.423C65.8057 131.058 66.1508 130.624 66.3968 130.121C66.6545 129.616 66.8133 129.067 66.8731 128.475C66.9447 127.88 66.8999 127.271 66.7388 126.649L64.3627 117.469L68.6265 116.366L73.0093 133.298L68.9216 134.356L68.3188 132.463C68.1682 132.752 67.9693 133.073 67.722 133.425C67.4748 133.778 67.1761 134.125 66.8258 134.466C66.4842 134.792 66.0673 135.095 65.5752 135.372C65.0831 135.65 64.4964 135.877 63.8152 136.054C61.7009 136.601 59.929 136.389 58.4995 135.418C57.067 134.435 56.0741 132.875 55.5207 130.737ZM75.8234 130.37L77.6621 126.942C78.3275 127.334 79.1052 127.603 79.9952 127.748C80.8938 127.879 81.86 127.811 82.8936 127.543C83.8098 127.306 84.5136 126.999 85.0048 126.621C85.493 126.231 85.6657 125.76 85.5228 125.208C85.462 124.973 85.3588 124.768 85.2131 124.593C85.0644 124.406 84.8072 124.259 84.4414 124.153C84.0843 124.033 83.6054 123.95 83.0047 123.905C82.4009 123.848 81.6018 123.836 80.6074 123.867C79.9954 123.876 79.3403 123.838 78.6421 123.756C77.9557 123.67 77.2892 123.492 76.6424 123.221C75.9926 122.938 75.4156 122.548 74.9111 122.052C74.4154 121.541 74.0627 120.88 73.8529 120.07C73.634 119.224 73.6391 118.421 73.8682 117.66C74.106 116.884 74.4976 116.193 75.0429 115.588C75.5969 114.969 76.2546 114.435 77.016 113.987C77.7861 113.525 78.594 113.184 79.4398 112.965C80.9315 112.579 82.2412 112.409 83.3687 112.456C84.4931 112.491 85.5588 112.71 86.5656 113.113L85.1385 116.679C84.5923 116.457 83.9083 116.308 83.0866 116.232C82.2736 116.142 81.3621 116.227 80.3519 116.489C79.3417 116.75 78.6765 117.086 78.3562 117.494C78.0358 117.903 77.9304 118.319 78.0399 118.742C78.1767 119.27 78.6135 119.602 79.3503 119.737C80.0989 119.869 81.2147 119.919 82.6976 119.886C83.6155 119.849 84.453 119.889 85.2103 120.006C85.9676 120.124 86.6492 120.336 87.255 120.643C87.8608 120.95 88.369 121.363 88.7794 121.884C89.2016 122.401 89.5191 123.071 89.7319 123.893C89.9448 124.715 89.9425 125.506 89.7251 126.264C89.5195 127.019 89.1412 127.712 88.5903 128.343C88.0511 128.972 87.3729 129.523 86.5558 129.998C85.7417 130.485 84.8414 130.855 83.8547 131.111C82.2689 131.521 80.7781 131.669 79.3823 131.554C77.9982 131.436 76.8119 131.041 75.8234 130.37ZM89.4876 114.669L88.5891 111.198L91.4787 110.45L90.0603 104.971L94.3066 103.872L95.7249 109.351L100.271 108.175L101.169 111.646L96.6234 112.822L98.5388 120.222C98.7882 121.186 99.1441 121.883 99.6068 122.315C100.069 122.746 100.659 122.87 101.376 122.684C102.045 122.511 102.555 122.279 102.906 121.987C103.254 121.684 103.576 121.356 103.873 121.004L106.35 123.164C105.684 124.076 104.979 124.791 104.236 125.309C103.504 125.824 102.634 126.212 101.623 126.474C100.59 126.741 99.6692 126.817 98.8619 126.7C98.0694 126.592 97.3785 126.319 96.7892 125.883C96.1969 125.435 95.7065 124.847 95.3179 124.121C94.9262 123.382 94.6088 122.543 94.3656 121.603L92.3771 113.921L89.4876 114.669Z" fill="white"/>
+          <path id="hust_2" d="M75.5954 156.8L72.1911 143.648L74.473 143.058L75.729 147.91C75.8984 147.586 76.1785 147.239 76.5695 146.871C76.9604 146.503 77.5089 146.227 78.2149 146.044C78.7798 145.898 79.3078 145.861 79.7988 145.932C80.2947 145.996 80.7342 146.159 81.1175 146.423C81.5056 146.679 81.8382 147.024 82.1152 147.459C82.3969 147.886 82.6109 148.382 82.7571 148.947L84.2125 154.57L81.8825 155.173L80.4321 149.569C80.2792 148.979 80.0008 148.565 79.5968 148.327C79.1928 148.089 78.734 148.037 78.2205 148.169C77.906 148.251 77.6274 148.391 77.3846 148.591C77.1402 148.785 76.9475 149.019 76.8067 149.296C76.6642 149.565 76.5742 149.866 76.5368 150.198C76.5041 150.521 76.5318 150.853 76.6198 151.193L77.9158 156.2L75.5954 156.8ZM85.4778 150.369L84.0224 144.747L86.3427 144.146L87.7932 149.75C87.946 150.34 88.2253 150.757 88.631 151.002C89.0414 151.238 89.5033 151.29 90.0168 151.157C90.3314 151.075 90.6108 150.938 90.8553 150.744C91.0981 150.545 91.2866 150.308 91.4211 150.033C91.5619 149.757 91.6486 149.457 91.6813 149.134C91.7205 148.808 91.696 148.476 91.6079 148.135L90.3095 143.119L92.6395 142.516L95.0345 151.769L92.8008 152.347L92.4713 151.312C92.389 151.471 92.2803 151.646 92.1452 151.839C92.0101 152.031 91.8469 152.221 91.6555 152.407C91.4688 152.586 91.241 152.751 90.9721 152.902C90.7032 153.054 90.3826 153.178 90.0103 153.275C88.8549 153.574 87.8867 153.458 87.1056 152.927C86.3228 152.39 85.7802 151.538 85.4778 150.369ZM96.5722 150.169L97.577 148.296C97.9406 148.51 98.3656 148.657 98.8519 148.736C99.343 148.808 99.8709 148.77 100.436 148.624C100.936 148.495 101.321 148.327 101.589 148.12C101.856 147.907 101.951 147.65 101.872 147.348C101.839 147.22 101.783 147.108 101.703 147.012C101.622 146.91 101.481 146.83 101.282 146.772C101.086 146.706 100.825 146.661 100.496 146.636C100.167 146.605 99.7299 146.598 99.1865 146.616C98.852 146.62 98.494 146.6 98.1125 146.555C97.7375 146.508 97.3732 146.41 97.0198 146.262C96.6647 146.107 96.3494 145.895 96.0737 145.623C95.8029 145.344 95.6101 144.983 95.4955 144.54C95.3758 144.078 95.3786 143.639 95.5038 143.223C95.6338 142.799 95.8477 142.422 96.1457 142.091C96.4484 141.753 96.8078 141.461 97.2239 141.216C97.6448 140.964 98.0863 140.778 98.5484 140.658C99.3636 140.447 100.079 140.354 100.695 140.38C101.31 140.399 101.892 140.518 102.442 140.739L101.663 142.687C101.364 142.566 100.99 142.485 100.541 142.443C100.097 142.394 99.5988 142.441 99.0468 142.584C98.4948 142.726 98.1313 142.91 97.9563 143.133C97.7812 143.356 97.7236 143.584 97.7834 143.815C97.8582 144.103 98.0969 144.285 98.4995 144.359C98.9086 144.431 99.5183 144.458 100.329 144.44C100.83 144.42 101.288 144.442 101.702 144.506C102.116 144.57 102.488 144.686 102.819 144.853C103.15 145.021 103.428 145.247 103.652 145.532C103.883 145.814 104.056 146.18 104.173 146.63C104.289 147.079 104.288 147.511 104.169 147.925C104.057 148.338 103.85 148.716 103.549 149.061C103.254 149.405 102.883 149.706 102.437 149.966C101.992 150.231 101.5 150.434 100.961 150.574C100.094 150.798 99.2798 150.879 98.517 150.816C97.7606 150.751 97.1124 150.536 96.5722 150.169ZM104.039 141.589L103.548 139.693L105.127 139.284L104.352 136.289L106.672 135.689L107.447 138.683L109.932 138.04L110.422 139.937L107.938 140.58L108.985 144.624C109.121 145.15 109.316 145.531 109.569 145.767C109.822 146.003 110.144 146.07 110.535 145.969C110.901 145.874 111.18 145.747 111.372 145.588C111.562 145.422 111.738 145.243 111.9 145.051L113.254 146.231C112.889 146.729 112.504 147.12 112.098 147.403C111.699 147.685 111.223 147.897 110.671 148.04C110.106 148.186 109.603 148.227 109.162 148.163C108.729 148.104 108.351 147.955 108.029 147.717C107.705 147.472 107.437 147.151 107.225 146.754C107.011 146.35 106.838 145.892 106.705 145.378L105.618 141.181L104.039 141.589Z" fill="white"/>
+          <path id="hust_3" d="M123.392 161.374L117.162 137.306L121.338 136.225L123.636 145.105C123.946 144.511 124.459 143.877 125.174 143.203C125.89 142.529 126.894 142.025 128.186 141.691C129.219 141.423 130.185 141.355 131.084 141.486C131.991 141.602 132.796 141.901 133.497 142.384C134.207 142.852 134.816 143.484 135.323 144.28C135.839 145.061 136.23 145.969 136.498 147.003L139.161 157.292L134.897 158.396L132.243 148.141C131.963 147.061 131.454 146.303 130.714 145.868C129.975 145.432 129.136 145.336 128.196 145.579C127.62 145.728 127.11 145.986 126.666 146.351C126.219 146.705 125.866 147.135 125.609 147.64C125.348 148.134 125.183 148.684 125.115 149.291C125.055 149.883 125.105 150.49 125.267 151.113L127.638 160.275L123.392 161.374ZM141.477 149.605L138.813 139.316L143.059 138.217L145.714 148.471C145.993 149.552 146.504 150.316 147.247 150.763C147.998 151.195 148.843 151.289 149.783 151.046C150.358 150.897 150.87 150.646 151.317 150.292C151.762 149.926 152.107 149.492 152.353 148.99C152.61 148.484 152.769 147.936 152.829 147.344C152.901 146.749 152.856 146.14 152.695 145.517L150.318 136.338L154.582 135.234L158.965 152.166L154.877 153.224L154.275 151.331C154.124 151.621 153.925 151.942 153.678 152.294C153.431 152.646 153.132 152.993 152.782 153.334C152.44 153.661 152.023 153.963 151.531 154.241C151.039 154.518 150.452 154.746 149.771 154.922C147.657 155.469 145.885 155.257 144.455 154.286C143.023 153.303 142.03 151.743 141.477 149.605ZM161.779 149.238L163.618 145.811C164.283 146.202 165.061 146.471 165.951 146.617C166.85 146.748 167.816 146.679 168.849 146.412C169.766 146.174 170.469 145.867 170.961 145.489C171.449 145.1 171.622 144.629 171.479 144.077C171.418 143.842 171.315 143.637 171.169 143.461C171.02 143.274 170.763 143.128 170.397 143.022C170.04 142.901 169.561 142.818 168.96 142.773C168.357 142.717 167.558 142.704 166.563 142.736C165.951 142.744 165.296 142.707 164.598 142.624C163.912 142.539 163.245 142.36 162.598 142.089C161.948 141.806 161.371 141.416 160.867 140.92C160.371 140.409 160.019 139.749 159.809 138.938C159.59 138.093 159.595 137.289 159.824 136.528C160.062 135.752 160.453 135.062 160.999 134.457C161.553 133.837 162.21 133.303 162.972 132.856C163.742 132.393 164.55 132.052 165.396 131.833C166.887 131.447 168.197 131.278 169.324 131.324C170.449 131.359 171.515 131.578 172.521 131.982L171.094 135.547C170.548 135.325 169.864 135.176 169.042 135.101C168.229 135.01 167.318 135.096 166.308 135.357C165.298 135.619 164.632 135.954 164.312 136.363C163.992 136.771 163.886 137.187 163.996 137.61C164.132 138.139 164.569 138.471 165.306 138.606C166.055 138.738 167.17 138.787 168.653 138.754C169.571 138.717 170.409 138.758 171.166 138.875C171.923 138.992 172.605 139.204 173.211 139.511C173.817 139.818 174.325 140.232 174.735 140.752C175.157 141.27 175.475 141.939 175.688 142.762C175.901 143.584 175.898 144.374 175.681 145.132C175.475 145.887 175.097 146.58 174.546 147.212C174.007 147.84 173.329 148.392 172.512 148.866C171.698 149.353 170.797 149.724 169.81 149.979C168.225 150.39 166.734 150.537 165.338 150.422C163.954 150.304 162.768 149.91 161.779 149.238ZM175.443 133.538L174.545 130.067L177.435 129.319L176.016 123.839L180.262 122.74L181.681 128.22L186.227 127.043L187.125 130.514L182.579 131.691L184.495 139.091C184.744 140.054 185.1 140.751 185.563 141.183C186.025 141.615 186.615 141.738 187.331 141.552C188.001 141.379 188.511 141.147 188.862 140.856C189.209 140.553 189.532 140.225 189.829 139.872L192.306 142.032C191.64 142.944 190.935 143.659 190.192 144.177C189.46 144.692 188.589 145.081 187.579 145.342C186.546 145.61 185.625 145.685 184.818 145.568C184.025 145.46 183.334 145.188 182.745 144.751C182.153 144.303 181.662 143.715 181.274 142.989C180.882 142.251 180.565 141.412 180.321 140.472L178.333 132.79L175.443 133.538Z" fill="white"/>
+          </g>
+          </svg>
+          
+        </div>
+        
+        <!-- id: txt_03 -->
+        <img
+          id="txt_03"
+          src="images/txt_03.svg"
+          alt="txt_03"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 17px;
+            top: 89px;
+            width: 267px;
+            height: 72px;"
+        />
+        
+        <!-- id: pack_bg -->
+        <img
+          id="pack_bg"
+          src="images/pack_bg.svg"
+          alt="pack_bg"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 0px;
+            top: 0px;
+            width: 300px;
+            height: 250px;"
+        />
+        
+        <!-- id: shadow -->
+        <img
+          id="shadow"
+          src="images/shadow.svg"
+          alt="shadow"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: -35px;
+            top: 163px;
+            width: 371px;
+            height: 39px;"
+        />
+        
+        <!-- id: glass -->
+        <img
+          id="glass"
+          src="images/glass.png"
+          alt="glass"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 216.1px;
+            top: 18.6px;
+            width: 65.9px;
+            height: 132.9px;"
+        />
+        
+        <!-- id: nr1 -->
+        <img
+          id="nr1"
+          src="images/nr1.svg"
+          alt="nr1"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 163px;
+            top: 84px;
+            width: 59.6px;
+            height: 59.6px;"
+        />
+        
+        <!-- id: packshot -->
+        <img
+          id="packshot"
+          src="images/packshot.png"
+          alt="packshot"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 138.8px;
+            top: 137.9px;
+            width: 143.3px;
+            height: 45.8px;"
+        />
+        
+        <!-- id: txt_04 -->
+        <img
+          id="txt_04"
+          src="images/txt_04.svg"
+          alt="txt_04"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 10px;
+            top: 10px;
+            width: 145px;
+            height: 105px;"
+        />
+        
+        <!-- id: txt_chc -->
+        <img
+          id="txt_chc"
+          src="images/txt_chc.svg"
+          alt="txt_chc"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 8px;
+            top: 194px;
+            width: 279px;
+            height: 10px;"
+        />
+        
+        <!-- id: img_03 -->
+        <img
+          id="img_03"
+          src="images/img_03.jpg"
+          alt="img_03"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 0px;
+            top: 0px;
+            width: 300px;
+            height: 200px;"
+        />
+        
+        <!-- id: txt_05 -->
+        <img
+          id="txt_05"
+          src="images/txt_05.svg"
+          alt="txt_05"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 10px;
+            top: 10px;
+            width: 183px;
+            height: 105px;"
+        />
+        
+        <!-- id: logo -->
+        <img
+          id="logo"
+          src="images/logo.svg"
+          alt="logo"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 10px;
+            top: 214px;
+            width: 105px;
+            height: 30px;"
+        />
+        
+        <!-- id: cta -->
+        <img
+          id="cta"
+          src="images/cta.svg"
+          alt="cta"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 161px;
+            top: 216px;
+            width: 129px;
+            height: 24px;"
+        />
+        
+        <!-- id: warning -->
+        <img
+          id="warning"
+          src="images/warning.svg"
+          alt="warning"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 0px;
+            top: 0px;
+            width: 300px;
+            height: 250px;"
+        />
+        </div>
+        
+        <style>
+        
+          #cta {
+            
+          }
+        
+          #imgs_holder {
+            perspective: 400px;
+            position: absolute;
+            background-color: transparent;
+            overflow: hidden;
+            width: 300px;
+            height: 200px;
+            top: 0px;
+            left: 0px;
+            transform: rotate(0deg);
+            transform-origin: top left;
+          }
+          #imgs {
+            perspective: 400px;
+            position: absolute;
+            background-color: transparent;
+            width: 300px;
+            height: 200px;
+            top: 0px;
+            left: 0px;
+            transform: rotate(0deg);
+            transform-origin: top left;
+          }
+          #speaker {
+            perspective: 400px;
+            position: absolute;
+            background-color: transparent;
+            width: 57px;
+            height: 108px;
+            top: 122px;
+            left: 253px;
+            transform: rotate(0deg);
+            transform-origin: top left;
+          }
+        
+          #imgs_holder,
+          #img_03 {
+            
+            clip-path: inset(0 0 100% 0);
+          }
+        
+        </style>
+
+      </div>
+      
+      <div id="cover" class=""></div>
+      <div id="border" class="absolute inset-0 size-full pointer-events-none border"></div>
+
+
+    </div>
+
+    <!-- data -->
+    <script data-extra>
+      window.banner = {
+        "width": 300,
+        "height": 250,
+        "data": {
+          "width": 300,
+          "height": 250,
+          "jpgQuality": 88,
+          "publisher": "gdn",
+          "size": "300x250",
+          "line": "couple",
+          "lineData": {
+            "dom": "dom_couple.njk",
+            "timings": [
+              2,
+              6.1,
+              8.1,
+              11.3,
+              14,
+              17,
+              20.2,
+              25
+            ]
+          },
+          "formatData": {
+            "width": 300,
+            "height": 250,
+            "jpgQuality": 88
+          },
+          "elements": [
+            "txt_01",
+            "imgs_holder",
+            "imgs",
+            "img_01",
+            "img_02",
+            "speaker",
+            "speaker_1",
+            "speaker_2",
+            "txt_02",
+            "hust",
+            "txt_03",
+            "pack_bg",
+            "shadow",
+            "glass",
+            "nr1",
+            "packshot",
+            "txt_04",
+            "txt_chc",
+            "img_03",
+            "txt_05",
+            "warning",
+            "logo",
+            "cta"
+          ]
+        }
+      };
+    </script>
+
+    <!-- animation -->
+    <script data-animation>
+      let banner=window.banner||{};banner.init=function(){const t=document.querySelector("#banner"),o=document.querySelector("#wrapper");function a(){gsap.defaults({ease:"power2.inOut",duration:1,transformOrigin:"center center"}),gsap.config({nullTargetWarn:!1})}function l(){o.addEventListener("click",s=>{window.open(clickTag)})}function h(){const s=()=>{const{clientWidth:e,clientHeight:n}=document.documentElement,{clientWidth:u,clientHeight:r}=t,{width:c,height:d}=o;let i=Math.min(e/u,n/r,1),p=Math.min(e/c,n/d,1);i>.995&&(i=1),t.style.transform="scale("+i+")",o.style.transform="scale("+p+")"};window.addEventListener("resize",s),s()}function g(){let s=document.querySelector("#nota-button"),e=document.querySelector("#nota-content"),n=e.clientHeight-banner.height,u=1.5,r=.3,c=n/100;function d(){n>0?gsap.to(e,{duration:r,y:-t.clientHeight,onComplete:function(){gsap.to(e,{duration:c,delay:u,y:"-="+n,ease:Power0.easeNone})}}):gsap.to(e,{duration:r,yPercent:-100})}function i(){gsap.killTweensOf(e),n>0?gsap.to(e,r,{y:0}):gsap.to(e,r,{yPercent:0})}s.addEventListener("mouseenter",function(){d()}),s.addEventListener("mouseleave",function(){i()})}a(),l(),h(),console.log(banner.data),this.animations["main_"+banner.data.line]()},banner.state={debug:!1},banner.utils={toggleDebug:()=>{console.log(banner.data);const t=document.querySelector("#banner"),o=()=>{t.style.overflow="visible"},a=()=>{t.style.overflow="hidden"};banner.state.debug?a():o(),banner.data.elements.forEach(l=>{document.querySelector(`#${l}`).classList.toggle("debug")}),banner.state.debug=!banner.state.debug}},banner.animations={cfg:{ease:{default:"power3.inOut",show:"power3.out",hide:"power3.in",bounce:"bounce.out"}},sub:{checkStop:t=>function(){t.totalProgress()>.85&&(gsap.to("#cover",{duration:.1,alpha:0}),t.pause())},showLetters:t=>gsap.timeline().from(t,{duration:1.2,x:"+=100",scale:.2,alpha:0,ease:"expo.out",stagger:{each:.02,ease:"power1.inOut"}},"<"),pulse:t=>gsap.timeline({default:{transformOrigin:"center center",ease:"power2.inOut"}}).to(t,{duration:1,scale:1.1,ease:"power2.out"}).to(t,{duration:.5,scale:.9,ease:"power2.inOut"}).to(t,{duration:.5,scale:1,ease:"power2.in"}),hush:t=>gsap.timeline({repeat:5,yoyo:!0}).to(t,{duration:.25,transformOrigin:"center center",scale:1.1,rotation:"-2",ease:"back.inOut(1.7)"}),shine:t=>gsap.timeline().to(t,{duration:5.3,x:"100",y:"100",ease:"power3.inOut"},"<+")},main_couple:function(){const t=()=>{gsap.registerPlugin(CustomBounce),CustomBounce.create("myBounce",{strength:.3,endAtStart:!1})},o={kv:"50% 65%"},a=["#shadow","#txt_chc","#packshot","#glass","#nr1"];t(),banner.tl=gsap.timeline({id:"flashback",repeat:0,defaults:{ease:this.cfg.ease.default}}),window.tl=banner.tl,banner.tl.set([],{alpha:0}),banner.tl.to("#cover",{duration:.8,yPercent:"-100"},"<").addLabel("f1","<+.4").from("#txt_01",{duration:1,alpha:0},"<+.1").to("#imgs_holder",{duration:2,clipPath:"inset(0% 0% 0% 0%)"},"<+2").from("#txt_02",{duration:1,alpha:0,scale:.9},">-.2").from("#img_02",{duration:.1,alpha:0},"<+2").add(this.sub.hush("#imgs"),"<").from("#hust",{duration:.1,alpha:0},"<").from(["#hust_1","#hust_2","#hust_3"],{duration:2,scale:0,x:"+20",y:"+20",stagger:.25,ease:this.cfg.ease.show},"<").to(["#hust_1","#hust_2","#hust_3"],{duration:.2,scale:0,stagger:.05,ease:this.cfg.ease.hide},"<+3.5").from("#txt_03",{duration:1,alpha:0,scale:.9},"<").from(["#packshot","#glass","#nr1"],{duration:1.2,scale:.95,stagger:.05,y:`-${banner.data.height}`,ease:"myBounce"},"<+2.2").from("#pack_bg",{duration:.1,alpha:0,scale:.9},"<").from("#shadow",{duration:.8,alpha:0,scale:.9},"<-.2").from("#txt_04",{duration:.8,alpha:0,scale:.9},"<+1").from("#txt_chc",{duration:.8,alpha:0},"<").to("#nr1",{duration:1.2,rotationY:"+360"},"<").to("#img_03",{duration:2,clipPath:"inset(0% 0% 0% 0%)"},"<+2").to(a,{duration:.8,alpha:0},"<").from("#txt_05",{duration:1,alpha:0,scale:.9},"<+.6").to("#txt_05",{duration:1,alpha:0,scale:.9},"<+3.2").from("#warning",{duration:.8,alpha:0},"<+.6").to(["#img_03"],{duration:.1,alpha:0},">").to(a,{duration:.1,alpha:1},"<").to("#warning",{duration:.8,alpha:0},"<+2.6").add(this.sub.checkStop(banner.tl),">+3").to("#cover",{duration:.8,yPercent:"0"},">+.5")},main_navi:function(){const t=()=>{gsap.registerPlugin(CustomBounce),CustomBounce.create("myBounce",{strength:.3,endAtStart:!1})},o={kv:"50% 65%"},a=["#shadow","#txt_chc","#packshot","#glass","#nr1"];t(),banner.tl=gsap.timeline({id:"flashback",repeat:0,defaults:{ease:this.cfg.ease.default}}),window.tl=banner.tl,banner.tl.set([],{alpha:0}),banner.tl.to("#cover",{duration:.8,yPercent:"-100"},"<").addLabel("f1","<+.4").from("#txt_01",{duration:1,alpha:0},"<+.1").to("#imgs_holder",{duration:2,clipPath:"inset(0% 0% 0% 0%)"},"<+2").from("#txt_02",{duration:1,alpha:0,scale:.9},">-.2").add(this.sub.hush("#imgs"),"<+.2").from("#hust",{duration:.1,alpha:0},"<").from(["#hust_1","#hust_2","#hust_3"],{duration:2,scale:0,x:"+20",y:"+20",stagger:.25,ease:this.cfg.ease.show},"<").to(["#hust_1","#hust_2","#hust_3"],{duration:.2,scale:0,stagger:.05,ease:this.cfg.ease.hide},"<+3").from("#txt_03",{duration:1,alpha:0,scale:.9},"<").from("#img_02",{duration:.1,alpha:0},"<").from(["#packshot","#glass","#nr1"],{duration:1.2,scale:.95,stagger:.05,y:`-${banner.data.height}`,ease:"myBounce"},"<+2.2").from("#pack_bg",{duration:.1,alpha:0,scale:.9},"<").from("#shadow",{duration:.8,alpha:0,scale:.9},"<-.2").from("#txt_04",{duration:.8,alpha:0,scale:.9},"<+1").from("#txt_chc",{duration:.8,alpha:0},"<").to("#nr1",{duration:1.2,rotationY:"+360"},"<").to("#img_03",{duration:2,clipPath:"inset(0% 0% 0% 0%)"},"<+2").to(a,{duration:.8,alpha:0},"<").from("#txt_05",{duration:1,alpha:0,scale:.9},"<+.6").to("#txt_05",{duration:1,alpha:0,scale:.9},"<+3.2").from("#warning",{duration:.8,alpha:0},"<+.6").to(["#img_03"],{duration:.1,alpha:0},">").to(a,{duration:.1,alpha:1},"<").to("#warning",{duration:.8,alpha:0},"<+2.6").add(this.sub.checkStop(banner.tl),">+3").to("#cover",{duration:.8,yPercent:"0"},">+.5")}};
+      
+    </script>
+  </body>
+</html>
