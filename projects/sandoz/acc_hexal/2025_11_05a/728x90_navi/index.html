@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<!--
+##############> flashback.agency <##############
+    ______           __    __               __  
+   / __/ /___ ______/ /_  / /_  ____ ______/ /__
+  / /_/ / __ `/ ___/ __ \/ __ \/ __ `/ ___/ //_/
+ / __/ / /_/ (__  ) / / / /_/ / /_/ / /__/ ,<   
+/_/ /_/\__,_/____/_/ /_/_.___/\__,_/\___/_/|_|  
+                                                
+#########> jakub.idzikowski@gmail.com <#########
+-->
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <title>728x90_navi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="ad.size" content="width=728,height=90" />
+    <meta name="author" content="flashback.agency - jakub.idzikowski@gmail.com" />
+
+    <!-- libs -->
+    <script src="https://s0.2mdn.net/ads/studio/cached_libs/gsap_3.11.5_min.js"></script>
+    <script src="./js/CustomBounce.min.js"></script>
+    <script src="./js/CustomEase.min.js"></script>
+
+    <!-- styles -->
+    <style data-styles>
+      /* styles */
+      *,*:before,*:after{box-sizing:border-box}*{margin:0}html,body{overflow:hidden;height:100%}body{position:relative;margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}img,picture,video,canvas,svg{display:block;max-width:100%;image-rendering:webkit-optimize-contrast}img{max-width:none}input,button,textarea,select{font:inherit}p,h1,h2,h3,h4,h5,h6{overflow-wrap:break-word}.static{position:static}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.w-full{width:100%}.h-full{height:100%}.size-full{width:100%;height:100%}.top-0{top:0}.bottom-0{bottom:0}.left-0{left:0}.right-0{right:0}.inset-0{inset:0}.cursor-auto{cursor:auto}.cursor-pointer{cursor:pointer}.pointer-events-auto{pointer-events:auto}.pointer-events-none{pointer-events:none}.overflow-auto{overflow:auto}.overflow-hidden{overflow:hidden}.overflow-clip{overflow:clip}.overflow-visible{overflow:visible}.overflow-scroll{overflow:scroll}:root{--mby-color-blue: 0 0 255;--mby-color-green: 0 255 0;--mby-color-pink: 255 14 178;--color-black: 0 0 0;--color-white: 255 255 255;--grad-color-1b: rgba(var(--color-black) / 1);--grad-color-2b: rgba(var(--color-black) / 1);--grad-color-3b: rgba(var(--color-black) / 0);--grad-color-1w: rgba(var(--color-white) / 1);--grad-color-2w: rgba(var(--color-white) / 1);--grad-color-3w: rgba(var(--color-white) / 0);--grad-color-1blue: rgba(var(--mby-color-blue) / 1);--grad-color-2blue: rgba(var(--mby-color-blue) / 1);--grad-color-3blue: rgba(var(--mby-color-blue) / 0);--sd-color-blue: 89 179 249;--sd-color-1blue: rgba(var(--sd-color-blue) / 1);--sd-color-2blue: rgba(var(--sd-color-blue) / 1);--sd-color-3blue: rgba(var(--sd-color-blue) / 0);--uc-color: 181 0 21;--uc-color-1: rgba(var(--uc-color) / 1);--uc-color-2: rgba(var(--uc-color) / 1);--uc-color-3: rgba(var(--uc-color) / 0);--border: 1px solid rgb(0 0 0 / .25);--background: #1F4177;--radius: 0px}.debug{outline:1px dashed #1e2189}body{display:flex;justify-content:center;align-items:center}#banner{flex-shrink:0;background:var(--background);border-radius:var(--radius)}#wrapper{perspective:500px}#border{z-index:30;border:var(--border);border-radius:var(--radius)}#cover{position:absolute;left:0;top:0;width:100%;height:200%;pointer-events:none;background:linear-gradient(to bottom,var(--grad-color-1w) 0%,var(--grad-color-2w) 50%,var(--grad-color-3w) 100%)}#nota{font-family:Montserrat,Arial,Helvetica,"sans-serif";position:relative;width:100%;height:100%;color:#000;pointer-events:none}#nota-button{position:absolute;color:#000;left:0;bottom:0;padding:3px;pointer-events:all;cursor:pointer;text-transform:uppercase;font-size:8px;font-weight:600;background-color:#ffffffbf;backdrop-filter:blur(8px)}#nota-content{position:absolute;padding:8px;font-size:10px;font-weight:400;top:100%;width:100%;background-color:#fffffff2;backdrop-filter:blur(8px)}ol,ul{padding-left:1.5em}a{text-decoration:underline;color:inherit}
+      </style>
+  </head>
+
+  <body
+    data-size="728x90"
+    data-line="navi"
+    onload="banner.init();"
+  >
+
+    <script>
+      var clickTag = "https://www.google.com/";
+    </script>
+
+    <div id="banner" class="relative overflow-hidden cursor-pointer" style="width: 728px; height: 90px;" title="DisplayAd">
+      <div id="wrapper" class="absolute size-full">
+
+        
+        
+        
+        
+        <div style="perspective: 500px;">
+        <!-- id: txt_01 -->
+        <img
+          id="txt_01"
+          src="images/txt_01.svg"
+          alt="txt_01"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 10px;
+            top: 10px;
+            width: 116px;
+            height: 60px;"
+        />
+        
+        <!-- id: txt_02 -->
+        <img
+          id="txt_02"
+          src="images/txt_02.svg"
+          alt="txt_02"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 159px;
+            top: 18px;
+            width: 116px;
+            height: 60px;"
+        />
+        <div id="imgs_holder">
+        
+          <div id="imgs">
+        <!-- id: img_01 -->
+        <img
+          id="img_01"
+          src="images/img_01.jpg"
+          alt="img_01"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 0px;
+            top: 0px;
+            width: 300px;
+            height: 90px;"
+        />
+        
+        <!-- id: img_02 -->
+        <img
+          id="img_02"
+          src="images/img_02.jpg"
+          alt="img_02"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 0px;
+            top: 0px;
+            width: 300px;
+            height: 90px;"
+        />
+        <div id="speaker">
+        <!-- id:  -->
+        <img
+          id=""
+          src="images/"
+          alt=""
+          style="position: absolute;
+            transform: rotate(NaNdeg);
+            left: px;
+            top: px;
+            width: px;
+            height: px;"
+        />
+        
+        <!-- id:  -->
+        <img
+          id=""
+          src="images/"
+          alt=""
+          style="position: absolute;
+            transform: rotate(NaNdeg);
+            left: px;
+            top: px;
+            width: px;
+            height: px;"
+        />
+        </div>
+        
+          </div>
+        
+        </div>
+        <!-- id: hust -->
+        <div
+          id="hust"
+          style="position: absolute;
+            transform: rotate(0deg);
+            transform-origin: top left;
+            left: 0px;
+            top: 0px;
+            width: 300px;
+            height: 90px;"
+          >
+          <!-- embed: hust -->
+          <svg width="300" height="90" viewBox="0 0 300 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="hust&#240;&#159;&#145;&#136;">
+          <path id="hust_1" d="M79.436 51.5057L73.2062 27.4378L77.382 26.3569L79.6805 35.237C79.9905 34.6429 80.5032 34.0089 81.2186 33.3349C81.934 32.6609 82.9377 32.1567 84.2298 31.8223C85.2635 31.5547 86.2296 31.4864 87.1283 31.6172C88.0356 31.7333 88.8401 32.0327 89.5415 32.5154C90.2517 32.9833 90.8602 33.6153 91.3671 34.4116C91.8827 35.193 92.2743 36.1006 92.5419 37.1343L95.2053 47.4239L90.9414 48.5276L88.2871 38.2732C88.0074 37.1925 87.4979 36.4346 86.7586 35.9993C86.0192 35.564 85.1797 35.468 84.24 35.7112C83.6645 35.8602 83.1545 36.1175 82.7103 36.4832C82.2629 36.8371 81.9104 37.2667 81.6527 37.7721C81.392 38.2657 81.2273 38.8159 81.1588 39.4227C81.099 40.0147 81.1496 40.622 81.3108 41.2445L83.6823 50.4066L79.436 51.5057ZM97.5207 39.7371L94.8573 29.4474L99.1036 28.3483L101.758 38.6027C102.038 39.6834 102.549 40.4472 103.291 40.8942C104.042 41.3265 104.887 41.421 105.827 41.1778C106.403 41.0288 106.914 40.7773 107.361 40.4234C107.806 40.0578 108.151 39.6238 108.397 39.1214C108.655 38.6161 108.813 38.0674 108.873 37.4754C108.945 36.8803 108.9 36.2715 108.739 35.649L106.363 26.4693L110.627 25.3657L115.009 42.2978L110.922 43.3558L110.319 41.4627C110.168 41.7523 109.969 42.0733 109.722 42.4256C109.475 42.7778 109.176 43.1246 108.826 43.4659C108.484 43.7925 108.067 44.0947 107.575 44.3724C107.083 44.6502 106.496 44.8773 105.815 45.0536C103.701 45.6009 101.929 45.389 100.5 44.4179C99.067 43.4352 98.0741 41.8749 97.5207 39.7371ZM117.823 39.3698L119.662 35.9423C120.328 36.334 121.105 36.6027 121.995 36.7484C122.894 36.8792 123.86 36.8109 124.894 36.5433C125.81 36.3062 126.514 35.9987 127.005 35.6209C127.493 35.2313 127.666 34.7605 127.523 34.2084C127.462 33.9735 127.359 33.7683 127.213 33.593C127.064 33.4059 126.807 33.2594 126.441 33.1535C126.084 33.0329 125.605 32.9501 125.005 32.905C124.401 32.8482 123.602 32.8358 122.607 32.8676C121.995 32.8756 121.34 32.8383 120.642 32.7559C119.956 32.6703 119.289 32.4919 118.642 32.2207C117.993 31.9377 117.416 31.5481 116.911 31.052C116.415 30.5412 116.063 29.8805 115.853 29.07C115.634 28.2243 115.639 27.4208 115.868 26.6597C116.106 25.8837 116.498 25.1933 117.043 24.5884C117.597 23.9688 118.255 23.4351 119.016 22.9873C119.786 22.5248 120.594 22.1841 121.44 21.9651C122.932 21.579 124.241 21.4092 125.369 21.4558C126.493 21.4906 127.559 21.7098 128.566 22.1134L127.139 25.6788C126.592 25.4567 125.908 25.3079 125.087 25.2323C124.274 25.142 123.362 25.2275 122.352 25.489C121.342 25.7505 120.676 26.0856 120.356 26.4944C120.036 26.9031 119.93 27.319 120.04 27.7418C120.177 28.2704 120.614 28.6023 121.35 28.7374C122.099 28.8695 123.215 28.9191 124.698 28.8862C125.615 28.8491 126.453 28.8892 127.21 29.0066C127.968 29.1239 128.649 29.336 129.255 29.6429C129.861 29.9498 130.369 30.3635 130.779 30.8839C131.202 31.4013 131.519 32.0711 131.732 32.8933C131.945 33.7155 131.943 34.5057 131.725 35.2638C131.52 36.0189 131.141 36.7121 130.59 37.3435C130.051 37.9719 129.373 38.5234 128.556 38.9981C127.742 39.4846 126.841 39.8555 125.855 40.1109C124.269 40.5214 122.778 40.6691 121.382 40.5542C119.998 40.4362 118.812 40.0414 117.823 39.3698ZM131.488 23.6695L130.589 20.1985L133.479 19.4505L132.06 13.971L136.307 12.8719L137.725 18.3514L142.271 17.1748L143.169 20.6458L138.623 21.8224L140.539 29.2225C140.788 30.1857 141.144 30.8831 141.607 31.3148C142.069 31.7465 142.659 31.8697 143.376 31.6842C144.045 31.5109 144.555 31.2786 144.906 30.9873C145.254 30.6842 145.576 30.3563 145.873 30.0037L148.35 32.1638C147.684 33.0757 146.979 33.7908 146.236 34.309C145.504 34.8242 144.634 35.2125 143.623 35.474C142.59 35.7416 141.669 35.8169 140.862 35.7C140.069 35.5918 139.378 35.3194 138.789 34.8829C138.197 34.4346 137.706 33.8472 137.318 33.1206C136.926 32.3822 136.609 31.5432 136.366 30.6035L134.377 22.9215L131.488 23.6695Z" fill="white"/>
+          <path id="hust_2" d="M117.595 65.8005L114.191 52.6485L116.473 52.0579L117.729 56.9104C117.898 56.5858 118.179 56.2393 118.569 55.871C118.96 55.5027 119.509 55.2272 120.215 55.0444C120.78 54.8982 121.308 54.8609 121.799 54.9324C122.295 54.9958 122.734 55.1594 123.118 55.4232C123.506 55.6789 123.838 56.0243 124.115 56.4594C124.397 56.8864 124.611 57.3823 124.757 57.9472L126.213 63.57L123.883 64.1731L122.432 58.5695C122.279 57.979 122.001 57.5648 121.597 57.327C121.193 57.0891 120.734 57.0366 120.221 57.1695C119.906 57.2509 119.627 57.3916 119.385 57.5914C119.14 57.7848 118.948 58.0196 118.807 58.2957C118.664 58.5655 118.574 58.8661 118.537 59.1977C118.504 59.5212 118.532 59.8531 118.62 60.1932L119.916 65.1998L117.595 65.8005ZM127.478 59.3695L126.022 53.7467L128.343 53.1461L129.793 58.7496C129.946 59.3401 130.225 59.7575 130.631 60.0018C131.041 60.238 131.503 60.2897 132.017 60.1568C132.331 60.0753 132.611 59.9379 132.855 59.7445C133.098 59.5447 133.287 59.3076 133.421 59.0331C133.562 58.7569 133.649 58.4571 133.681 58.1336C133.72 57.8084 133.696 57.4757 133.608 57.1355L132.31 52.1193L134.639 51.5162L137.034 60.7688L134.801 61.347L134.471 60.3125C134.389 60.4707 134.28 60.6461 134.145 60.8386C134.01 61.0311 133.847 61.2206 133.655 61.4071C133.469 61.5856 133.241 61.7507 132.972 61.9025C132.703 62.0543 132.383 62.1783 132.01 62.2747C130.855 62.5738 129.887 62.458 129.106 61.9274C128.323 61.3903 127.78 60.5377 127.478 59.3695ZM138.572 59.1688L139.577 57.2958C139.941 57.5099 140.366 57.6567 140.852 57.7363C141.343 57.8078 141.871 57.7705 142.436 57.6243C142.936 57.4947 143.321 57.3266 143.589 57.1202C143.856 56.9073 143.951 56.65 143.872 56.3483C143.839 56.22 143.783 56.1079 143.703 56.012C143.622 55.9098 143.481 55.8297 143.282 55.7719C143.086 55.706 142.825 55.6607 142.496 55.6361C142.167 55.6051 141.73 55.5982 141.186 55.6156C140.852 55.62 140.494 55.5997 140.113 55.5546C139.737 55.5079 139.373 55.4104 139.02 55.2621C138.665 55.1075 138.349 54.8946 138.074 54.6235C137.803 54.3444 137.61 53.9833 137.495 53.5404C137.376 53.0783 137.379 52.6392 137.504 52.2233C137.634 51.7993 137.848 51.422 138.146 51.0915C138.448 50.7529 138.808 50.4612 139.224 50.2166C139.645 49.9638 140.086 49.7776 140.548 49.658C141.364 49.447 142.079 49.3542 142.695 49.3796C143.31 49.3987 143.892 49.5184 144.442 49.739L143.663 51.6873C143.364 51.566 142.99 51.4846 142.541 51.4433C142.097 51.394 141.599 51.4407 141.047 51.5836C140.495 51.7265 140.131 51.9096 139.956 52.133C139.781 52.3564 139.724 52.5836 139.783 52.8147C139.858 53.1035 140.097 53.2848 140.5 53.3587C140.909 53.4309 141.518 53.458 142.329 53.44C142.83 53.4197 143.288 53.4417 143.702 53.5058C144.116 53.5699 144.488 53.6858 144.819 53.8535C145.15 54.0212 145.428 54.2473 145.652 54.5316C145.883 54.8144 146.056 55.1804 146.173 55.6297C146.289 56.079 146.288 56.5108 146.169 56.9251C146.057 57.3377 145.85 57.7165 145.549 58.0615C145.254 58.4049 144.883 58.7063 144.437 58.9657C143.992 59.2315 143.5 59.4342 142.961 59.5738C142.094 59.7981 141.28 59.8788 140.517 59.816C139.761 59.7515 139.112 59.5358 138.572 59.1688ZM146.039 50.5893L145.548 48.6926L147.127 48.2839L146.352 45.2895L148.672 44.6889L149.447 47.6833L151.932 47.0403L152.422 48.937L149.938 49.58L150.985 53.6238C151.121 54.1501 151.316 54.5312 151.569 54.7671C151.822 55.003 152.144 55.0703 152.535 54.969C152.901 54.8743 153.18 54.7473 153.372 54.5881C153.562 54.4225 153.738 54.2434 153.9 54.0507L155.254 55.231C154.889 55.7294 154.504 56.1201 154.098 56.4033C153.699 56.6848 153.223 56.897 152.671 57.0399C152.106 57.1861 151.603 57.2273 151.162 57.1634C150.729 57.1043 150.351 56.9555 150.029 56.7169C149.705 56.472 149.437 56.1509 149.225 55.7539C149.011 55.3504 148.838 54.8919 148.705 54.3784L147.618 50.1806L146.039 50.5893Z" fill="white"/>
+          <path id="hust_3" d="M165.392 70.3739L159.162 46.3061L163.338 45.2252L165.636 54.1053C165.946 53.5112 166.459 52.8772 167.174 52.2032C167.89 51.5292 168.894 51.025 170.186 50.6906C171.219 50.423 172.185 50.3547 173.084 50.4855C173.991 50.6016 174.796 50.901 175.497 51.3836C176.207 51.8515 176.816 52.4836 177.323 53.2799C177.839 54.0613 178.23 54.9689 178.498 56.0026L181.161 66.2922L176.897 67.3959L174.243 57.1415C173.963 56.0608 173.454 55.3028 172.714 54.8676C171.975 54.4323 171.136 54.3362 170.196 54.5795C169.62 54.7285 169.11 54.9858 168.666 55.3514C168.219 55.7054 167.866 56.135 167.609 56.6404C167.348 57.134 167.183 57.6842 167.115 58.291C167.055 58.883 167.105 59.4903 167.267 60.1128L169.638 69.2748L165.392 70.3739ZM183.477 58.6054L180.813 48.3157L185.059 47.2166L187.714 57.471C187.993 58.5517 188.504 59.3155 189.247 59.7625C189.998 60.1948 190.843 60.2893 191.783 60.046C192.358 59.8971 192.87 59.6456 193.317 59.2917C193.762 58.926 194.107 58.492 194.353 57.9897C194.61 57.4844 194.769 56.9357 194.829 56.3437C194.901 55.7486 194.856 55.1398 194.695 54.5173L192.318 45.3376L196.582 44.234L200.965 61.1661L196.877 62.2241L196.275 60.331C196.124 60.6206 195.925 60.9416 195.678 61.2938C195.431 61.6461 195.132 61.9929 194.782 62.3342C194.44 62.6608 194.023 62.9629 193.531 63.2407C193.039 63.5185 192.452 63.7455 191.771 63.9219C189.657 64.4692 187.885 64.2573 186.455 63.2862C185.023 62.3034 184.03 60.7432 183.477 58.6054ZM203.779 58.2381L205.618 54.8106C206.283 55.2023 207.061 55.471 207.951 55.6167C208.85 55.7475 209.816 55.6792 210.849 55.4116C211.766 55.1745 212.469 54.867 212.961 54.4891C213.449 54.0996 213.622 53.6288 213.479 53.0767C213.418 52.8418 213.315 52.6366 213.169 52.4613C213.02 52.2741 212.763 52.1277 212.397 52.0218C212.04 51.9012 211.561 51.8184 210.96 51.7733C210.357 51.7165 209.558 51.704 208.563 51.7358C207.951 51.7439 207.296 51.7066 206.598 51.6241C205.912 51.5386 205.245 51.3602 204.598 51.089C203.948 50.806 203.371 50.4164 202.867 49.9203C202.371 49.4094 202.019 48.7488 201.809 47.9383C201.59 47.0926 201.595 46.2891 201.824 45.5279C202.062 44.752 202.453 44.0616 202.999 43.4567C203.553 42.8371 204.21 42.3034 204.972 41.8556C205.742 41.3931 206.55 41.0523 207.396 40.8334C208.887 40.4473 210.197 40.2775 211.324 40.3241C212.449 40.3589 213.515 40.5781 214.521 40.9817L213.094 44.5471C212.548 44.325 211.864 44.1762 211.042 44.1006C210.229 44.0103 209.318 44.0958 208.308 44.3573C207.298 44.6188 206.632 44.9539 206.312 45.3627C205.992 45.7714 205.886 46.1873 205.996 46.6101C206.132 47.1387 206.569 47.4705 207.306 47.6057C208.055 47.7378 209.17 47.7874 210.653 47.7545C211.571 47.7174 212.409 47.7575 213.166 47.8748C213.923 47.9922 214.605 48.2043 215.211 48.5112C215.817 48.8181 216.325 49.2317 216.735 49.7522C217.157 50.2695 217.475 50.9394 217.688 51.7616C217.901 52.5838 217.898 53.374 217.681 54.1321C217.475 54.8872 217.097 55.5804 216.546 56.2118C216.007 56.8402 215.329 57.3917 214.512 57.8664C213.698 58.3529 212.797 58.7238 211.81 58.9792C210.225 59.3896 208.734 59.5374 207.338 59.4224C205.954 59.3045 204.768 58.9097 203.779 58.2381ZM217.443 42.5378L216.545 39.0668L219.435 38.3188L218.016 32.8392L222.262 31.7401L223.681 37.2197L228.227 36.0431L229.125 39.5141L224.579 40.6907L226.495 48.0908C226.744 49.054 227.1 49.7514 227.563 50.1831C228.025 50.6148 228.615 50.7379 229.331 50.5525C230.001 50.3792 230.511 50.1469 230.862 49.8556C231.209 49.5525 231.532 49.2246 231.829 48.872L234.306 51.032C233.64 51.944 232.935 52.6591 232.192 53.1773C231.46 53.6925 230.589 54.0808 229.579 54.3423C228.546 54.6098 227.625 54.6852 226.818 54.5683C226.025 54.4601 225.334 54.1877 224.745 53.7512C224.153 53.3029 223.662 52.7155 223.274 51.9889C222.882 51.2505 222.565 50.4115 222.321 49.4718L220.333 41.7898L217.443 42.5378Z" fill="white"/>
+          </g>
+          </svg>
+          
+        </div>
+        
+        <!-- id: txt_03 -->
+        <img
+          id="txt_03"
+          src="images/txt_03.svg"
+          alt="txt_03"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 8px;
+            top: 8px;
+            width: 134px;
+            height: 60px;"
+        />
+        
+        <!-- id: pack_bg -->
+        <img
+          id="pack_bg"
+          src="images/pack_bg.svg"
+          alt="pack_bg"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 0px;
+            top: 0px;
+            width: 728px;
+            height: 90px;"
+        />
+        
+        <!-- id: shadow -->
+        <img
+          id="shadow"
+          src="images/shadow.svg"
+          alt="shadow"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 225px;
+            top: 51px;
+            width: 279px;
+            height: 20px;"
+        />
+        
+        <!-- id: glass -->
+        <img
+          id="glass"
+          src="images/glass.png"
+          alt="glass"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 455.1px;
+            top: 4px;
+            width: 41.9px;
+            height: 84.6px;"
+        />
+        
+        <!-- id: nr1 -->
+        <img
+          id="nr1"
+          src="images/nr1.svg"
+          alt="nr1"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 215px;
+            top: 8px;
+            width: 59.6px;
+            height: 59.6px;"
+        />
+        
+        <!-- id: packshot -->
+        <img
+          id="packshot"
+          src="images/packshot.png"
+          alt="packshot"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 298.8px;
+            top: 15.9px;
+            width: 143.3px;
+            height: 45.8px;"
+        />
+        
+        <!-- id: txt_04 -->
+        <img
+          id="txt_04"
+          src="images/txt_04.svg"
+          alt="txt_04"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 16px;
+            top: 10px;
+            width: 140px;
+            height: 38px;"
+        />
+        
+        <!-- id: txt_chc -->
+        <img
+          id="txt_chc"
+          src="images/txt_chc.svg"
+          alt="txt_chc"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 16px;
+            top: 74px;
+            width: 279px;
+            height: 10px;"
+        />
+        
+        <!-- id: img_03 -->
+        <img
+          id="img_03"
+          src="images/img_03.jpg"
+          alt="img_03"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 0px;
+            top: 0px;
+            width: 300px;
+            height: 90px;"
+        />
+        
+        <!-- id: txt_05 -->
+        <img
+          id="txt_05"
+          src="images/txt_05.svg"
+          alt="txt_05"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 10px;
+            top: 10px;
+            width: 164px;
+            height: 36px;"
+        />
+        
+        <!-- id: logo -->
+        <img
+          id="logo"
+          src="images/logo.svg"
+          alt="logo"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 318px;
+            top: 66.5px;
+            width: 73.5px;
+            height: 21px;"
+        />
+        
+        <!-- id: cta -->
+        <img
+          id="cta"
+          src="images/cta.svg"
+          alt="cta"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 617.7px;
+            top: 68.9px;
+            width: 90.2px;
+            height: 16.8px;"
+        />
+        
+        <!-- id: warning -->
+        <img
+          id="warning"
+          src="images/warning.svg"
+          alt="warning"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 0px;
+            top: 0px;
+            width: 728px;
+            height: 90px;"
+        />
+        </div>
+        
+        <style>
+        
+          #cta {
+            
+          }
+        
+          #imgs_holder {
+            perspective: 400px;
+            position: absolute;
+            background-color: transparent;
+            overflow: hidden;
+            width: 300px;
+            height: 90px;
+            top: 0px;
+            left: 0px;
+            transform: rotate(0deg);
+            transform-origin: top left;
+          }
+          #imgs {
+            perspective: 400px;
+            position: absolute;
+            background-color: transparent;
+            width: 300px;
+            height: 90px;
+            top: 0px;
+            left: 0px;
+            transform: rotate(0deg);
+            transform-origin: top left;
+          }
+          #speaker {
+            perspective: 400px;
+            position: absolute;
+            background-color: transparent;
+            width: px;
+            height: px;
+            top: px;
+            left: px;
+            transform: rotate(NaNdeg);
+            transform-origin: top left;
+          }
+        
+          #imgs_holder,
+          #img_03 {
+            
+            clip-path: inset(0 0 100% 0);
+          }
+        
+        </style>
+
+      </div>
+      
+      <div id="cover" class=""></div>
+      <div id="border" class="absolute inset-0 size-full pointer-events-none border"></div>
+
+
+    </div>
+
+    <!-- data -->
+    <script data-extra>
+      window.banner = {
+        "width": 728,
+        "height": 90,
+        "data": {
+          "size": "728x90",
+          "line": "navi",
+          "publisher": "gdn",
+          "width": 728,
+          "height": 90,
+          "jpgQuality": 88,
+          "lineData": {
+            "dom": "dom_navi.njk",
+            "assetsPostfix": "navi",
+            "timings": [
+              2,
+              4.3,
+              6.4,
+              9,
+              12,
+              15.7,
+              19,
+              22
+            ]
+          },
+          "formatData": {
+            "width": 728,
+            "height": 90,
+            "jpgQuality": 88
+          },
+          "elements": [
+            "txt_01",
+            "imgs_holder",
+            "imgs",
+            "img_01",
+            "txt_02",
+            "hust",
+            "img_02",
+            "txt_03",
+            "pack_bg",
+            "shadow",
+            "glass",
+            "nr1",
+            "packshot",
+            "txt_04",
+            "txt_chc",
+            "img_03",
+            "txt_05",
+            "warning",
+            "logo",
+            "cta"
+          ]
+        }
+      };
+    </script>
+
+    <!-- animation -->
+    <script data-animation>
+      let banner=window.banner||{};banner.init=function(){const t=document.querySelector("#banner"),o=document.querySelector("#wrapper");function a(){gsap.defaults({ease:"power2.inOut",duration:1,transformOrigin:"center center"}),gsap.config({nullTargetWarn:!1})}function l(){o.addEventListener("click",s=>{window.open(clickTag)})}function h(){const s=()=>{const{clientWidth:e,clientHeight:n}=document.documentElement,{clientWidth:u,clientHeight:r}=t,{width:c,height:d}=o;let i=Math.min(e/u,n/r,1),p=Math.min(e/c,n/d,1);i>.995&&(i=1),t.style.transform="scale("+i+")",o.style.transform="scale("+p+")"};window.addEventListener("resize",s),s()}function g(){let s=document.querySelector("#nota-button"),e=document.querySelector("#nota-content"),n=e.clientHeight-banner.height,u=1.5,r=.3,c=n/100;function d(){n>0?gsap.to(e,{duration:r,y:-t.clientHeight,onComplete:function(){gsap.to(e,{duration:c,delay:u,y:"-="+n,ease:Power0.easeNone})}}):gsap.to(e,{duration:r,yPercent:-100})}function i(){gsap.killTweensOf(e),n>0?gsap.to(e,r,{y:0}):gsap.to(e,r,{yPercent:0})}s.addEventListener("mouseenter",function(){d()}),s.addEventListener("mouseleave",function(){i()})}a(),l(),h(),console.log(banner.data),this.animations["main_"+banner.data.line]()},banner.state={debug:!1},banner.utils={toggleDebug:()=>{console.log(banner.data);const t=document.querySelector("#banner"),o=()=>{t.style.overflow="visible"},a=()=>{t.style.overflow="hidden"};banner.state.debug?a():o(),banner.data.elements.forEach(l=>{document.querySelector(`#${l}`).classList.toggle("debug")}),banner.state.debug=!banner.state.debug}},banner.animations={cfg:{ease:{default:"power3.inOut",show:"power3.out",hide:"power3.in",bounce:"bounce.out"}},sub:{checkStop:t=>function(){t.totalProgress()>.85&&(gsap.to("#cover",{duration:.1,alpha:0}),t.pause())},showLetters:t=>gsap.timeline().from(t,{duration:1.2,x:"+=100",scale:.2,alpha:0,ease:"expo.out",stagger:{each:.02,ease:"power1.inOut"}},"<"),pulse:t=>gsap.timeline({default:{transformOrigin:"center center",ease:"power2.inOut"}}).to(t,{duration:1,scale:1.1,ease:"power2.out"}).to(t,{duration:.5,scale:.9,ease:"power2.inOut"}).to(t,{duration:.5,scale:1,ease:"power2.in"}),hush:t=>gsap.timeline({repeat:5,yoyo:!0}).to(t,{duration:.25,transformOrigin:"center center",scale:1.1,rotation:"-2",ease:"back.inOut(1.7)"}),shine:t=>gsap.timeline().to(t,{duration:5.3,x:"100",y:"100",ease:"power3.inOut"},"<+")},main_couple:function(){const t=()=>{gsap.registerPlugin(CustomBounce),CustomBounce.create("myBounce",{strength:.3,endAtStart:!1})},o={kv:"50% 65%"},a=["#shadow","#txt_chc","#packshot","#glass","#nr1"];t(),banner.tl=gsap.timeline({id:"flashback",repeat:0,defaults:{ease:this.cfg.ease.default}}),window.tl=banner.tl,banner.tl.set([],{alpha:0}),banner.tl.to("#cover",{duration:.8,yPercent:"-100"},"<").addLabel("f1","<+.4").from("#txt_01",{duration:1,alpha:0},"<+.1").to("#imgs_holder",{duration:2,clipPath:"inset(0% 0% 0% 0%)"},"<+2").from("#txt_02",{duration:1,alpha:0,scale:.9},">-.2").from("#img_02",{duration:.1,alpha:0},"<+2").add(this.sub.hush("#imgs"),"<").from("#hust",{duration:.1,alpha:0},"<").from(["#hust_1","#hust_2","#hust_3"],{duration:2,scale:0,x:"+20",y:"+20",stagger:.25,ease:this.cfg.ease.show},"<").to(["#hust_1","#hust_2","#hust_3"],{duration:.2,scale:0,stagger:.05,ease:this.cfg.ease.hide},"<+3.5").from("#txt_03",{duration:1,alpha:0,scale:.9},"<").from(["#packshot","#glass","#nr1"],{duration:1.2,scale:.95,stagger:.05,y:`-${banner.data.height}`,ease:"myBounce"},"<+2.2").from("#pack_bg",{duration:.1,alpha:0,scale:.9},"<").from("#shadow",{duration:.8,alpha:0,scale:.9},"<-.2").from("#txt_04",{duration:.8,alpha:0,scale:.9},"<+1").from("#txt_chc",{duration:.8,alpha:0},"<").to("#nr1",{duration:1.2,rotationY:"+360"},"<").to("#img_03",{duration:2,clipPath:"inset(0% 0% 0% 0%)"},"<+2").to(a,{duration:.8,alpha:0},"<").from("#txt_05",{duration:1,alpha:0,scale:.9},"<+.6").to("#txt_05",{duration:1,alpha:0,scale:.9},"<+3.2").from("#warning",{duration:.8,alpha:0},"<+.6").to(["#img_03"],{duration:.1,alpha:0},">").to(a,{duration:.1,alpha:1},"<").to("#warning",{duration:.8,alpha:0},"<+2.6").add(this.sub.checkStop(banner.tl),">+3").to("#cover",{duration:.8,yPercent:"0"},">+.5")},main_navi:function(){const t=()=>{gsap.registerPlugin(CustomBounce),CustomBounce.create("myBounce",{strength:.3,endAtStart:!1})},o={kv:"50% 65%"},a=["#shadow","#txt_chc","#packshot","#glass","#nr1"];t(),banner.tl=gsap.timeline({id:"flashback",repeat:0,defaults:{ease:this.cfg.ease.default}}),window.tl=banner.tl,banner.tl.set([],{alpha:0}),banner.tl.to("#cover",{duration:.8,yPercent:"-100"},"<").addLabel("f1","<+.4").from("#txt_01",{duration:1,alpha:0},"<+.1").to("#imgs_holder",{duration:2,clipPath:"inset(0% 0% 0% 0%)"},"<+2").from("#txt_02",{duration:1,alpha:0,scale:.9},">-.2").add(this.sub.hush("#imgs"),"<+.2").from("#hust",{duration:.1,alpha:0},"<").from(["#hust_1","#hust_2","#hust_3"],{duration:2,scale:0,x:"+20",y:"+20",stagger:.25,ease:this.cfg.ease.show},"<").to(["#hust_1","#hust_2","#hust_3"],{duration:.2,scale:0,stagger:.05,ease:this.cfg.ease.hide},"<+3").from("#txt_03",{duration:1,alpha:0,scale:.9},"<").from("#img_02",{duration:.1,alpha:0},"<").from(["#packshot","#glass","#nr1"],{duration:1.2,scale:.95,stagger:.05,y:`-${banner.data.height}`,ease:"myBounce"},"<+2.2").from("#pack_bg",{duration:.1,alpha:0,scale:.9},"<").from("#shadow",{duration:.8,alpha:0,scale:.9},"<-.2").from("#txt_04",{duration:.8,alpha:0,scale:.9},"<+1").from("#txt_chc",{duration:.8,alpha:0},"<").to("#nr1",{duration:1.2,rotationY:"+360"},"<").to("#img_03",{duration:2,clipPath:"inset(0% 0% 0% 0%)"},"<+2").to(a,{duration:.8,alpha:0},"<").from("#txt_05",{duration:1,alpha:0,scale:.9},"<+.6").to("#txt_05",{duration:1,alpha:0,scale:.9},"<+3.2").from("#warning",{duration:.8,alpha:0},"<+.6").to(["#img_03"],{duration:.1,alpha:0},">").to(a,{duration:.1,alpha:1},"<").to("#warning",{duration:.8,alpha:0},"<+2.6").add(this.sub.checkStop(banner.tl),">+3").to("#cover",{duration:.8,yPercent:"0"},">+.5")}};
+      
+    </script>
+  </body>
+</html>
