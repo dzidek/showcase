@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<!--
+##############> flashback.agency <##############
+    ______           __    __               __  
+   / __/ /___ ______/ /_  / /_  ____ ______/ /__
+  / /_/ / __ `/ ___/ __ \/ __ \/ __ `/ ___/ //_/
+ / __/ / /_/ (__  ) / / / /_/ / /_/ / /__/ ,<   
+/_/ /_/\__,_/____/_/ /_/_.___/\__,_/\___/_/|_|  
+                                                
+#########> jakub.idzikowski@gmail.com <#########
+-->
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <title>300x300_main</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="ad.size" content="width=300,height=300" />
+    <meta name="author" content="flashback.agency - jakub.idzikowski@gmail.com" />
+
+    <!-- libs -->
+    <script src="https://s0.2mdn.net/ads/studio/cached_libs/gsap_3.11.5_min.js"></script>
+    <script src="./js/CustomBounce.min.js"></script>
+    <script src="./js/CustomEase.min.js"></script>
+
+    <!-- styles -->
+    <style data-styles>
+      /* styles */
+      *,*:before,*:after{box-sizing:border-box}*{margin:0}html,body{overflow:hidden;height:100%}body{position:relative;margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}img,picture,video,canvas,svg{display:block;max-width:100%;image-rendering:webkit-optimize-contrast}img{max-width:none}input,button,textarea,select{font:inherit}p,h1,h2,h3,h4,h5,h6{overflow-wrap:break-word}.static{position:static}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.w-full{width:100%}.h-full{height:100%}.size-full{width:100%;height:100%}.top-0{top:0}.bottom-0{bottom:0}.left-0{left:0}.right-0{right:0}.inset-0{inset:0}.cursor-auto{cursor:auto}.cursor-pointer{cursor:pointer}.pointer-events-auto{pointer-events:auto}.pointer-events-none{pointer-events:none}.overflow-auto{overflow:auto}.overflow-hidden{overflow:hidden}.overflow-clip{overflow:clip}.overflow-visible{overflow:visible}.overflow-scroll{overflow:scroll}:root{--mby-color-blue: 0 0 255;--mby-color-green: 0 255 0;--mby-color-pink: 255 14 178;--color-black: 0 0 0;--color-white: 255 255 255;--grad-color-1b: rgba(var(--color-black) / 1);--grad-color-2b: rgba(var(--color-black) / 1);--grad-color-3b: rgba(var(--color-black) / 0);--grad-color-1w: rgba(var(--color-white) / 1);--grad-color-2w: rgba(var(--color-white) / 1);--grad-color-3w: rgba(var(--color-white) / 0);--grad-color-1blue: rgba(var(--mby-color-blue) / 1);--grad-color-2blue: rgba(var(--mby-color-blue) / 1);--grad-color-3blue: rgba(var(--mby-color-blue) / 0);--sd-color-blue: 89 179 249;--sd-color-1blue: rgba(var(--sd-color-blue) / 1);--sd-color-2blue: rgba(var(--sd-color-blue) / 1);--sd-color-3blue: rgba(var(--sd-color-blue) / 0);--uc-color: 181 0 21;--uc-color-1: rgba(var(--uc-color) / 1);--uc-color-2: rgba(var(--uc-color) / 1);--uc-color-3: rgba(var(--uc-color) / 0);--border: 1px solid rgb(0 0 0 / .25);--background: #F8F6E2;--radius: 0px}.debug{outline:1px dashed #1e2189}body{display:flex;justify-content:center;align-items:center}#banner{flex-shrink:0;background:var(--background);border-radius:var(--radius)}#wrapper{perspective:500px}#border{z-index:30;border:var(--border);border-radius:var(--radius)}#cover{position:absolute;left:0;top:0;width:100%;height:200%;pointer-events:none;background:linear-gradient(to bottom,var(--grad-color-1w) 0%,var(--grad-color-2w) 50%,var(--grad-color-3w) 100%)}#nota{font-family:Montserrat,Arial,Helvetica,"sans-serif";position:relative;width:100%;height:100%;color:#000;pointer-events:none}#nota-button{position:absolute;color:#000;left:0;bottom:0;padding:3px;pointer-events:all;cursor:pointer;text-transform:uppercase;font-size:8px;font-weight:600;background-color:#ffffffbf;backdrop-filter:blur(8px)}#nota-content{position:absolute;padding:8px;font-size:10px;font-weight:400;top:100%;width:100%;background-color:#fffffff2;backdrop-filter:blur(8px)}ol,ul{padding-left:1.5em}a{text-decoration:underline;color:inherit}
+      </style>
+  </head>
+
+  <body
+    data-size="300x300"
+    data-line="main"
+    onload="banner.init();"
+  >
+
+    <script>
+      var clickTag = "https://www.google.com/";
+    </script>
+
+    <div id="banner" class="relative overflow-hidden cursor-pointer" style="width: 300px; height: 300px;" title="DisplayAd">
+      <div id="wrapper" class="absolute size-full">
+
+        
+        
+        
+        
+        
+        <div style="">
+        <!-- id: img_01 -->
+        <img
+          id="img_01"
+          src="images/img_01.jpg"
+          alt="img_01"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 0px;
+            top: 0px;
+            width: 300px;
+            height: 300px;"
+        />
+        
+        <!-- id: txt_01 -->
+        <img
+          id="txt_01"
+          src="images/txt_01.svg"
+          alt="txt_01"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 56.1px;
+            top: 35px;
+            width: 187px;
+            height: 54px;"
+        />
+        
+        <!-- id: img_02 -->
+        <img
+          id="img_02"
+          src="images/img_02.jpg"
+          alt="img_02"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 0px;
+            top: 0px;
+            width: 300px;
+            height: 300px;"
+        />
+        
+        <!-- id: txt_02 -->
+        <img
+          id="txt_02"
+          src="images/txt_02.svg"
+          alt="txt_02"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 39.7px;
+            top: 35px;
+            width: 219px;
+            height: 54px;"
+        />
+        
+        <!-- id: img_03 -->
+        <img
+          id="img_03"
+          src="images/img_03.jpg"
+          alt="img_03"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 0px;
+            top: 0px;
+            width: 300px;
+            height: 300px;"
+        />
+        
+        <!-- id: txt_03 -->
+        <img
+          id="txt_03"
+          src="images/txt_03.svg"
+          alt="txt_03"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 63.2px;
+            top: 35px;
+            width: 173px;
+            height: 54px;"
+        />
+        
+        <!-- id: img_04 -->
+        <img
+          id="img_04"
+          src="images/img_04.jpg"
+          alt="img_04"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 0px;
+            top: 0px;
+            width: 300px;
+            height: 300px;"
+        />
+        
+        <!-- id: txt_04 -->
+        <img
+          id="txt_04"
+          src="images/txt_04.svg"
+          alt="txt_04"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 78.6px;
+            top: 35px;
+            width: 141px;
+            height: 54px;"
+        />
+        
+        <!-- id: star_black -->
+        <img
+          id="star_black"
+          src="images/star_black.svg"
+          alt="star_black"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 132.7px;
+            top: 96.7px;
+            width: 32.6px;
+            height: 32.6px;"
+        />
+        
+        <!-- id: word_mark_black -->
+        <img
+          id="word_mark_black"
+          src="images/word_mark_black.svg"
+          alt="word_mark_black"
+          style="position: absolute;
+            transform: rotate(0deg);
+            left: 102.1px;
+            top: 12.1px;
+            width: 93.8px;
+            height: 10.8px;"
+        />
+        </div>
+        
+        <style>
+        
+          :root {
+            --radius: 0px;
+          }
+        
+          #cta {
+            
+          }
+        
+        </style>
+
+      </div>
+      
+      <div id="cover" class=""></div>
+      <div id="border" class="absolute inset-0 size-full pointer-events-none border"></div>
+
+
+    </div>
+
+    <!-- data -->
+    <script data-extra>
+      window.banner = {
+        "width": 300,
+        "height": 300,
+        "data": {
+          "size": "300x300",
+          "line": "main",
+          "publisher": "gdn",
+          "width": 300,
+          "height": 300,
+          "jpgQuality": 80,
+          "timeline": "main",
+          "lineData": {
+            "dom": "dom_main.njk",
+            "timings": [
+              3.4,
+              7.8,
+              12,
+              15.6
+            ],
+            "radius": "0px",
+            "t1": "JEDEN SPRINTER. TOLIK MOŽNOSTÍ.",
+            "t2": "NAVŠTIVTE NÁŠ ONLINE SHOWROOM.",
+            "t3": "SKLADOVÉ VOZY BEZ ČEKÁNÍ.",
+            "t4": "NA MÍRU DO 3 MĚSÍCŮ."
+          },
+          "formatData": {
+            "width": 300,
+            "height": 300,
+            "jpgQuality": 80,
+            "timeline": "main"
+          },
+          "elements": [
+            "img_01",
+            "txt_01",
+            "img_02",
+            "txt_02",
+            "img_03",
+            "txt_03",
+            "img_04",
+            "txt_04",
+            "star_black",
+            "word_mark_black"
+          ]
+        }
+      };
+    </script>
+
+    <!-- animation -->
+    <script data-animation>
+      let banner=window.banner||{};banner.init=function(){const e=document.querySelector("#banner"),a=document.querySelector("#wrapper");function r(){gsap.defaults({ease:"power2.inOut",duration:1,transformOrigin:"center center"}),gsap.config({nullTargetWarn:!1})}function l(){a.addEventListener("click",o=>{window.open(clickTag)})}function g(){const o=()=>{const{clientWidth:t,clientHeight:n}=document.documentElement,{clientWidth:c,clientHeight:s}=e,{width:u,height:d}=a;let i=Math.min(t/c,n/s,1),h=Math.min(t/u,n/d,1);i>.995&&(i=1),e.style.transform="scale("+i+")",a.style.transform="scale("+h+")"};window.addEventListener("resize",o),o()}function p(){let o=document.querySelector("#nota-button"),t=document.querySelector("#nota-content"),n=t.clientHeight-banner.height,c=1.5,s=.3,u=n/100;function d(){n>0?gsap.to(t,{duration:s,y:-e.clientHeight,onComplete:function(){gsap.to(t,{duration:u,delay:c,y:"-="+n,ease:Power0.easeNone})}}):gsap.to(t,{duration:s,yPercent:-100})}function i(){gsap.killTweensOf(t),n>0?gsap.to(t,s,{y:0}):gsap.to(t,s,{yPercent:0})}o.addEventListener("mouseenter",function(){d()}),o.addEventListener("mouseleave",function(){i()})}r(),l(),g(),console.log(banner),this.animations[banner.data.timeline]()},banner.state={debug:!1},banner.utils={toggleDebug:()=>{console.log(banner.data);const e=document.querySelector("#banner"),a=()=>{e.style.overflow="visible"},r=()=>{e.style.overflow="hidden"};banner.state.debug?r():a(),banner.data.elements.forEach(l=>{document.querySelector(`#${l}`).classList.toggle("debug")}),banner.state.debug=!banner.state.debug}},banner.animations={cfg:{ease:{default:"power3.inOut",show:"power3.out",hide:"power3.in",bounce:"bounce.out"}},sub:{checkStop:e=>function(){e.totalProgress()>.85&&(gsap.to("#cover",{duration:.1,alpha:0}),e.pause())},showLetters:e=>gsap.timeline().from(e,{duration:1.2,x:"+=100",scale:.2,alpha:0,ease:"expo.out",stagger:{each:.02,ease:"power1.inOut"}},"<"),pulse:e=>gsap.timeline({default:{transformOrigin:"center center",ease:"power2.inOut"}}).to(e,{duration:1,scale:1.1,ease:"power2.out"}).to(e,{duration:.5,scale:.9,ease:"power2.inOut"}).to(e,{duration:.5,scale:1,ease:"power2.in"}),hush:e=>gsap.timeline({repeat:5,yoyo:!0}).to(e,{duration:.25,transformOrigin:"center center",scale:1.1,rotation:"-2",ease:"back.inOut(1.7)"}),shine:e=>gsap.timeline().to(e,{duration:5.3,x:"100",y:"100",ease:"power3.inOut"},"<+"),show3dSlide:(e,a)=>gsap.timeline().from(e,{duration:.8,transformOrigin:"center center",y:"",scale:.7,alpha:0},"<").from(a,{duration:3.1,alpha:0,scale:1.2,ease:"power3.out"},"<+.1")},main:function(){const e=()=>{gsap.registerPlugin(CustomBounce),CustomBounce.create("myBounce",{strength:.3,endAtStart:!1})},a={kv:"50% 65%"},r=["#shadow","#txt_chc","#packshot","#glass","#nr1"];e(),banner.tl=gsap.timeline({id:"flashback",repeat:0,defaults:{ease:this.cfg.ease.default}}),window.tl=banner.tl,banner.tl.set([],{alpha:0}),banner.tl.to("#cover",{duration:.8,yPercent:"-100"},"<").set(["#txt_01","#txt_02","#txt_03","#txt_04","#img_01","#img_02","#img_03","#img_04"],{transformPerspective:400}).set([],{clipPath:"inset(0 0 0 0)"}).addLabel("f1","<").from("#word_mark_black",{duration:.8,alpha:0,scale:.95,y:"+20",ease:this.cfg.ease.show},"<").from("#star_black",{duration:.8,alpha:0,scale:.95,y:"-20",ease:this.cfg.ease.show},"<").add(this.sub.show3dSlide("#txt_01","#img_01"),"<").to("#txt_01",{duration:.4,alpha:0,scale:.95,y:"+60",ease:this.cfg.ease.hide},"<+4").add(this.sub.show3dSlide("#txt_02","#img_02"),"<").to("#txt_02",{duration:.4,alpha:0,scale:.95,y:"+60",ease:this.cfg.ease.hide},"<+4").add(this.sub.show3dSlide("#txt_03","#img_03"),"<").to("#txt_03",{duration:.4,alpha:0,scale:.95,y:"+60",ease:this.cfg.ease.hide},"<+4").add(this.sub.show3dSlide("#txt_04","#img_04"),"<").add(this.sub.checkStop(banner.tl),">+3").to("#cover",{duration:.8,yPercent:"0"},">+.5")}};
+      
+    </script>
+  </body>
+</html>
